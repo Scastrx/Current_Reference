@@ -1,0 +1,6 @@
+TDMCHECKPOINT="1.0"
+keepEmptyCategory type="unknown"
+Current_reference/C_Bias_OTA_tb type="cell"
+Current_reference/C_Bias_TOP_tb type="cell"
+Current_reference/C_Bias_TOP_tb_dont_use type="cell"
+Current_reference/C_Bias_self_Bias_tb type="cell"
