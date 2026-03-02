@@ -1,24 +1,23 @@
 <?xml version="1.0"?>
-<!--Created by Custom Compiler (TM), build , on Mon Mar  2 18:21:23 2026-->
+<!--Created by Custom Compiler (TM), build , on Mon Mar  2 18:21:24 2026-->
 <file-format name="stateCategory" version="1.0">
  <collection name="analyses">
   <object name="analyses" type="saAnalysis" version="1">
    <attribute name="card" type="giString" value=""/>
    <attribute name="center" type="giString" value=""/>
-   <attribute name="dec" type="giString" value=""/>
-   <attribute name="definition" type="giString" value="dc"/>
+   <attribute name="dec" type="giString" value="20"/>
+   <attribute name="definition" type="giString" value="lstb"/>
    <attribute name="description" type="giString" value=""/>
    <attribute name="designVar" type="giString" value=""/>
-   <attribute name="designVarType" type="giString" value="param"/>
    <attribute name="dev" type="giString" value=""/>
-   <attribute name="doSweep" type="giString" value="0"/>
-   <attribute name="enableOpOpt" type="giBoolean" value="1"/>
    <attribute name="enabled" type="giBoolean" value="1"/>
-   <attribute name="hysteresis" type="giBoolean" value="0"/>
+   <attribute name="freq" type="giString" value=""/>
    <attribute name="lin" type="giString" value=""/>
+   <attribute name="localgnd" type="giString" value="/gnd!"/>
    <attribute name="log" type="giString" value=""/>
    <attribute name="mod" type="giString" value=""/>
-   <attribute name="name" type="giString" value="dc"/>
+   <attribute name="modeType" type="giString" value="single"/>
+   <attribute name="name" type="giString" value="lstb"/>
    <collection name="options">
     <object name="options" type="saOption" version="1">
      <attribute name="enabled" type="giString" value="no"/>
@@ -42,7 +41,7 @@
      <attribute name="enabled" type="giString" value="no"/>
      <attribute name="hasIntegrationDefault" type="giBoolean" value="0"/>
      <attribute name="localized" type="giBoolean" value="0"/>
-     <attribute name="name" type="giString" value="write_final"/>
+     <attribute name="name" type="giString" value="read_ic"/>
      <attribute name="simDefault" type="giString" value=""/>
      <attribute name="state" type="giString" value="used"/>
      <attribute name="value" type="giString" value=""/>
@@ -51,7 +50,25 @@
      <attribute name="enabled" type="giString" value="no"/>
      <attribute name="hasIntegrationDefault" type="giBoolean" value="0"/>
      <attribute name="localized" type="giBoolean" value="0"/>
-     <attribute name="name" type="giString" value="read_ic"/>
+     <attribute name="name" type="giString" value="mode"/>
+     <attribute name="simDefault" type="giString" value="single"/>
+     <attribute name="state" type="giString" value="used"/>
+     <attribute name="value" type="giString" value="single"/>
+    </object>
+    <object name="options" type="saOption" version="1">
+     <attribute name="enabled" type="giString" value="no"/>
+     <attribute name="hasIntegrationDefault" type="giBoolean" value="0"/>
+     <attribute name="localized" type="giBoolean" value="0"/>
+     <attribute name="name" type="giString" value="vsource"/>
+     <attribute name="simDefault" type="giString" value=""/>
+     <attribute name="state" type="giString" value="used"/>
+     <attribute name="value" type="giString" value=""/>
+    </object>
+    <object name="options" type="saOption" version="1">
+     <attribute name="enabled" type="giString" value="no"/>
+     <attribute name="hasIntegrationDefault" type="giBoolean" value="0"/>
+     <attribute name="localized" type="giBoolean" value="0"/>
+     <attribute name="name" type="giString" value="write_final"/>
      <attribute name="simDefault" type="giString" value=""/>
      <attribute name="state" type="giString" value="used"/>
      <attribute name="value" type="giString" value=""/>
@@ -69,6 +86,15 @@
      <attribute name="enabled" type="giString" value="no"/>
      <attribute name="hasIntegrationDefault" type="giBoolean" value="0"/>
      <attribute name="localized" type="giBoolean" value="0"/>
+     <attribute name="name" type="giString" value="locgnd"/>
+     <attribute name="simDefault" type="giString" value=""/>
+     <attribute name="state" type="giString" value="used"/>
+     <attribute name="value" type="giString" value=""/>
+    </object>
+    <object name="options" type="saOption" version="1">
+     <attribute name="enabled" type="giString" value="no"/>
+     <attribute name="hasIntegrationDefault" type="giBoolean" value="0"/>
+     <attribute name="localized" type="giBoolean" value="0"/>
      <attribute name="name" type="giString" value="otherOptions"/>
      <attribute name="simDefault" type="giString" value=""/>
      <attribute name="state" type="giString" value="used"/>
@@ -76,20 +102,21 @@
     </object>
    </collection>
    <attribute name="param" type="giString" value=""/>
-   <attribute name="saveOP" type="giBoolean" value="1"/>
    <attribute name="span" type="giString" value=""/>
-   <attribute name="start" type="giString" value=""/>
+   <attribute name="start" type="giString" value="1"/>
    <attribute name="step" type="giString" value=""/>
    <attribute name="stepSpecLin" type="giString" value="Number of Steps"/>
    <attribute name="stepSpecLog" type="giString" value="Points per Decade"/>
-   <attribute name="stop" type="giString" value=""/>
+   <attribute name="stop" type="giString" value="5G"/>
    <attribute name="sub" type="giString" value=""/>
-   <attribute name="sweep" type="giString" value="Linear"/>
+   <attribute name="sweep" type="giString" value="Logarithmic"/>
    <attribute name="sweepSpec" type="giString" value="Start/Stop"/>
-   <attribute name="sweepVar" type="giString" value="Temperature"/>
+   <attribute name="sweepVar" type="giString" value="Frequency (Hz)"/>
    <attribute name="textParam" type="giString" value=""/>
    <attribute name="useCard" type="giBoolean" value="0"/>
    <attribute name="values" type="giString" value=""/>
+   <attribute name="vsource" type="giString" value="/IPRB2"/>
+   <attribute name="vsource2" type="giString" value=""/>
   </object>
  </collection>
 </file-format>

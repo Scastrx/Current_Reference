@@ -7,7 +7,7 @@
  <attribute name="enabled" type="giBoolean" value="0"/>
  <attribute name="enabledJobClass" type="giBoolean" value="0"/>
  <attribute name="migratedSimulator" type="giString" value="PrimeSim"/>
- <attribute name="name" type="giString" value="DC"/>
+ <attribute name="name" type="giString" value="NOISE_1u"/>
  <attribute name="openaccessState" type="dmCellView" value="//"/>
  <attribute name="simulator" type="giString" value="PrimeSim"/>
  <comment>Testbench of 'Tangarar_testsuite' test suite.</comment>
