@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<!--Created by Custom Compiler (TM), build , on Mon Mar  2 10:57:25 2026-->
+<file-format version="1.0" name="stateData">
+ <attribute name="dcop_splitted" value="1" type="giBoolean"/>
+ <attribute name="description" value="" type="giString"/>
+ <attribute name="design" value="Current_reference/C_Bias_TOP_tb/schematic" type="dmCellView"/>
+ <attribute name="enabled" value="1" type="giBoolean"/>
+ <attribute name="enabledJobClass" value="0" type="giBoolean"/>
+ <attribute name="migratedSimulator" value="" type="giString"/>
+ <attribute name="name" value="DC" type="giString"/>
+ <attribute name="openaccessState" value="//" type="dmCellView"/>
+ <attribute name="simulator" value="PrimeSim" type="giString"/>
+ <comment>Testbench of 'Tangarar_testsuite' test suite.</comment>
+ <integration version="1"/>
+</file-format>

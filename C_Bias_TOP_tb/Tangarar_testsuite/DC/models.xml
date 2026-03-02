@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<!--Created by Custom Compiler (TM), build , on Mon Mar  2 10:57:25 2026-->
+<file-format version="1.0" name="stateCategory">
+ <object version="1" name="models" type="saModelSetup">
+  <attribute name="includeGlobal" value="1" type="giBoolean"/>
+  <attribute name="includePath" value="/home/scastro/tsmc28/models/hspice/" type="giString"/>
+  <collection name="modelFiles">
+   <object version="1" name="modelFiles" type="saModelFile">
+    <attribute name="enabled" value="1" type="giBoolean"/>
+    <attribute name="filename" value="crn28ull_1d8_elk_v1d8_2p3_shrink0d9_embedded_usage.l" type="giString"/>
+    <attribute name="section" value="TTMacro_MOS_MOSCAP" type="giString"/>
+   </object>
+   <object version="1" name="modelFiles" type="saModelFile">
+    <attribute name="enabled" value="1" type="giBoolean"/>
+    <attribute name="filename" value="crn28ull_1d8_elk_v1d8_2p3_shrink0d9_embedded_usage.l" type="giString"/>
+    <attribute name="section" value="TT_R_METAL" type="giString"/>
+   </object>
+   <object version="1" name="modelFiles" type="saModelFile">
+    <attribute name="enabled" value="0" type="giBoolean"/>
+    <attribute name="filename" value="crn28ull_1d8_elk_v1d8_2p3_shrink0d9_embedded_usage.l" type="giString"/>
+    <attribute name="section" value="" type="giString"/>
+   </object>
+  </collection>
+  <collection name="modelGroupDefs"/>
+  <collection name="modelGroups"/>
+ </object>
+</file-format>

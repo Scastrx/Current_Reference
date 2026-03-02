@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<!--Created by Custom Compiler (TM), build , on Mon Mar  2 10:57:25 2026-->
+<file-format version="1.0" name="stateCategory">
+ <object version="1" name="environmentOptions" type="saEnvironmentOptions">
+  <attribute name="accuracyLevel" value="Default" type="giString"/>
+  <attribute name="auto" value="0" type="giBoolean"/>
+  <attribute name="commandLineOptions" value="" type="giString"/>
+  <attribute name="enableGPU" value="0" type="giInt"/>
+  <attribute name="enableParallelSim" value="0" type="giBoolean"/>
+  <attribute name="ignoreParasitics" value="0" type="giBoolean"/>
+  <attribute name="includePath" value="" type="giString"/>
+  <attribute name="netlistLanguage" value="Spectre" type="giString"/>
+  <attribute name="numGPUProcesses" value="1" type="giInt"/>
+  <attribute name="numProcesses" value="1" type="giInt"/>
+  <attribute name="outputDataFormat" value="wdf" type="giString"/>
+  <attribute name="stopViewList" value="spectre" type="giString"/>
+  <attribute name="switchViewList" value="spectre schematic veriloga" type="giString"/>
+  <attribute name="use64Bit" value="1" type="giBoolean"/>
+ </object>
+</file-format>

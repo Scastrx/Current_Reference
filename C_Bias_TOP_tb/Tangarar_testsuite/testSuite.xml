@@ -1,0 +1,256 @@
+<?xml version="1.0"?>
+<!--Created by Custom Compiler (TM), build , on Mon Mar  2 10:57:25 2026-->
+<file-format version="1.0" name="testSuiteData">
+ <comment></comment>
+ <tsCategory>SAE_test_suite</tsCategory>
+ <version version="1.0"/>
+ <attribute name="supportsGlobalScope" value="1" type="giBoolean"/>
+ <testbenchOrder>
+  <testbench name="DC"/>
+ </testbenchOrder>
+ <category name="chainingSetup">
+  <collection name="chainingSetup"/>
+ </category>
+ <category name="cornersSetup">
+  <collection name="cornersSetup"/>
+ </category>
+ <category name="includeFiles">
+  <collection name="includeFiles"/>
+ </category>
+ <category name="includes">
+  <object version="1" name="includes" type="saIncludeFileSetup">
+   <collection name="includeFiles"/>
+   <attribute name="includeGlobal" value="1" type="giBoolean"/>
+   <collection name="includeGroupDefs"/>
+   <collection name="includeGroups"/>
+   <attribute name="includePath" value="" type="giString"/>
+  </object>
+ </category>
+ <category name="jobOptions">
+  <object version="1" name="jobOptions" type="saJobOptions">
+   <attribute name="dynConcurrent" value="" type="giString"/>
+   <attribute name="dynExtraOptions" value="default" type="giString"/>
+   <attribute name="dynJcName" value="" type="giString"/>
+   <attribute name="dynMeasConcurrent" value="" type="giString"/>
+   <attribute name="dynMeasExtraOptions" value="default" type="giString"/>
+   <attribute name="dynMeasJcName" value="" type="giString"/>
+   <attribute name="dynMeasQueueList" value="" type="giString"/>
+   <attribute name="dynQueueList" value="" type="giString"/>
+   <attribute name="measurementsCalculationMode" value="Background" type="giString"/>
+   <attribute name="measurementsCommandPrefix" value="" type="giString"/>
+   <attribute name="measurementsDisplayName" value="" type="giString"/>
+   <attribute name="measurementsDisplayType" value="Current" type="saDisplayEnum"/>
+   <attribute name="measurementsDisplayWrapperScript" value="" type="giString"/>
+   <attribute name="measurementsGridOptions" value="" type="giString"/>
+   <attribute name="measurementsJobClass" value="SAEShell" type="giString"/>
+   <attribute name="netlistingGridOptions" value="" type="giString"/>
+   <attribute name="netlistingJobClass" value="Netlisting" type="giString"/>
+   <attribute name="noCopyScratchResults" value="0" type="giBoolean"/>
+   <attribute name="overrideLocal" value="0" type="giBoolean"/>
+   <attribute name="remoteSimDir" value="~/simulation" type="giString"/>
+   <attribute name="scratchDir" value="/SCRATCH" type="giString"/>
+   <attribute name="scratchNetworkDir" value="" type="giString"/>
+   <attribute name="simulationCommandPrefix" value="" type="giString"/>
+   <attribute name="simulationGridOptions" value="" type="giString"/>
+   <attribute name="simulationJobClass" value="Simulation" type="giString"/>
+   <attribute name="useScratchDir" value="0" type="giBoolean"/>
+   <attribute name="usedGlobalResource" value="1" type="giBoolean"/>
+   <attribute name="usedSimResource" value="1" type="giBoolean"/>
+  </object>
+ </category>
+ <category name="models">
+  <object version="1" name="models" type="saModelSetup">
+   <attribute name="includeGlobal" value="1" type="giBoolean"/>
+   <attribute name="includePath" value="" type="giString"/>
+   <collection name="modelFiles"/>
+   <collection name="modelGroupDefs"/>
+   <collection name="modelGroups"/>
+  </object>
+ </category>
+ <category name="models3DIC">
+  <object version="1" name="models3DIC" type="saModelSetup">
+   <attribute name="includeGlobal" value="1" type="giBoolean"/>
+   <attribute name="includePath" value="" type="giString"/>
+   <collection name="modelFiles"/>
+   <collection name="modelGroupDefs"/>
+   <collection name="modelGroups"/>
+  </object>
+ </category>
+ <category name="monteCarlo">
+  <collection name="monteCarlo"/>
+ </category>
+ <category name="optimizationSetup">
+  <object version="1" name="optimizationSetup" type="saOptimizationSetup">
+   <collection name="csoAreas"/>
+   <collection name="csoObjectives"/>
+   <object version="1" name="csoOptions" type="saDpoOptions">
+    <attribute name="csoJobClass" value="simulation" type="giString"/>
+    <attribute name="csoRunName" value="opt_history_1" type="giString"/>
+    <attribute name="designMeetSpecs" value="1" type="giString"/>
+    <attribute name="enableCornerReductionFlag" value="0" type="giBoolean"/>
+    <attribute name="enableInitialValueFlag" value="0" type="giBoolean"/>
+    <attribute name="maxIterations" value="" type="giString"/>
+    <attribute name="maxRunTime" value="" type="giString"/>
+    <attribute name="maximumTimesThanAverage" value="50" type="giString"/>
+    <attribute name="maximumWallTime" value="" type="giString"/>
+    <attribute name="noImprovementIterations" value="100" type="giString"/>
+    <attribute name="optimizerEngine" value="Global" type="giString"/>
+    <attribute name="removeInvalidParamsFlag" value="0" type="giBoolean"/>
+    <attribute name="rerunAbnormalSampleFlag" value="1" type="giBoolean"/>
+    <attribute name="rerunAbnormalSimFlag" value="1" type="giBoolean"/>
+    <attribute name="topBestDesigns" value="10" type="giString"/>
+   </object>
+   <collection name="csoParams"/>
+   <attribute name="enabled" value="1" type="giBoolean"/>
+  </object>
+ </category>
+ <category name="refParams">
+  <collection name="refParams"/>
+ </category>
+ <category name="reports">
+  <collection name="reports"/>
+ </category>
+ <category name="sessionOptions">
+  <object version="1" name="sessionOptions" type="saSessionOptions">
+   <attribute name="commonSetupItems" value="{Common Model Files} {Global Variables} Corners {Monte Carlo}" type="giStringList"/>
+   <attribute name="enableTestSuiteHistory" value="1" type="giBoolean"/>
+   <collection name="historyTreeExpandedState">
+    <object version="1" name="historyTreeExpandedState" type="saPair">
+     <attribute name="name" value="history_2" type="giString"/>
+     <attribute name="value" value="1" type="giString"/>
+    </object>
+    <object version="1" name="historyTreeExpandedState" type="saPair">
+     <attribute name="name" value="history_1" type="giString"/>
+     <attribute name="value" value="0" type="giString"/>
+    </object>
+   </collection>
+   <attribute name="testbenchSetupItems" value="Design {Simulator Setting} {Simulation Options} {Model Files} Variables Analyses Corners" type="giStringList"/>
+  </object>
+ </category>
+ <category name="stimulusSets">
+  <object version="1" name="stimulusSets" type="saStimulusSets">
+   <attribute name="activeSet" value="default" type="giString"/>
+   <collection name="allGroupDefs"/>
+   <collection name="allGroups"/>
+   <attribute name="allSets" value="" type="giStringList"/>
+   <attribute name="enabled" value="1" type="giBoolean"/>
+   <attribute name="includeGlobal" value="0" type="giBoolean"/>
+   <attribute name="lastModificationTime" value="0" type="giInt"/>
+   <object version="1" name="stimulusPorts" type="saStimulusPorts">
+    <attribute name="activeSet" value="default" type="giString"/>
+    <collection name="allPortSets"/>
+    <attribute name="enabled" value="1" type="giBoolean"/>
+   </object>
+  </object>
+ </category>
+ <category name="sweeps">
+  <collection name="sweeps"/>
+ </category>
+ <category name="temperature">
+  <object version="1" name="temperature" type="saTemperature">
+   <attribute name="description" value="" type="giString"/>
+   <attribute name="local" value="1" type="giBoolean"/>
+   <attribute name="unit" value="Celsius" type="giString"/>
+   <attribute name="value" value="25" type="giString"/>
+  </object>
+ </category>
+ <category name="variableGroup">
+  <object version="1" name="variableGroup" type="saDesignVariables">
+   <attribute name="includeGlobal" value="0" type="giBoolean"/>
+   <collection name="variableGroupDefs"/>
+   <collection name="variableGroups"/>
+   <attribute name="variableSet" value="" type="giString"/>
+   <collection name="variableSets"/>
+  </object>
+ </category>
+ <category name="variables">
+  <collection name="variables">
+   <object version="1" name="variables" type="saDesignVariable">
+    <attribute name="description" value="" type="giString"/>
+    <attribute name="name" value="Rext" type="giString"/>
+    <attribute name="useDpo" value="0" type="giBoolean"/>
+    <attribute name="useLocal" value="1" type="giBoolean"/>
+    <attribute name="value" value="121k" type="giString"/>
+    <attribute name="variableType" value="none" type="enVariableType"/>
+   </object>
+   <object version="1" name="variables" type="saDesignVariable">
+    <attribute name="description" value="" type="giString"/>
+    <attribute name="name" value="Res" type="giString"/>
+    <attribute name="useDpo" value="0" type="giBoolean"/>
+    <attribute name="useLocal" value="1" type="giBoolean"/>
+    <attribute name="value" value="96k" type="giString"/>
+    <attribute name="variableType" value="none" type="enVariableType"/>
+   </object>
+   <object version="1" name="variables" type="saDesignVariable">
+    <attribute name="description" value="" type="giString"/>
+    <attribute name="name" value="Rc" type="giString"/>
+    <attribute name="useDpo" value="0" type="giBoolean"/>
+    <attribute name="useLocal" value="1" type="giBoolean"/>
+    <attribute name="value" value="0" type="giString"/>
+    <attribute name="variableType" value="none" type="enVariableType"/>
+   </object>
+   <object version="1" name="variables" type="saDesignVariable">
+    <attribute name="description" value="" type="giString"/>
+    <attribute name="name" value="Rint" type="giString"/>
+    <attribute name="useDpo" value="0" type="giBoolean"/>
+    <attribute name="useLocal" value="1" type="giBoolean"/>
+    <attribute name="value" value="2.4M" type="giString"/>
+    <attribute name="variableType" value="none" type="enVariableType"/>
+   </object>
+   <object version="1" name="variables" type="saDesignVariable">
+    <attribute name="description" value="" type="giString"/>
+    <attribute name="name" value="VDD" type="giString"/>
+    <attribute name="useDpo" value="0" type="giBoolean"/>
+    <attribute name="useLocal" value="1" type="giBoolean"/>
+    <attribute name="value" value="1.8" type="giString"/>
+    <attribute name="variableType" value="none" type="enVariableType"/>
+   </object>
+   <object version="1" name="variables" type="saDesignVariable">
+    <attribute name="description" value="" type="giString"/>
+    <attribute name="name" value="lp" type="giString"/>
+    <attribute name="useDpo" value="0" type="giBoolean"/>
+    <attribute name="useLocal" value="1" type="giBoolean"/>
+    <attribute name="value" value="2u" type="giString"/>
+    <attribute name="variableType" value="none" type="enVariableType"/>
+   </object>
+   <object version="1" name="variables" type="saDesignVariable">
+    <attribute name="description" value="" type="giString"/>
+    <attribute name="name" value="Vm" type="giString"/>
+    <attribute name="useDpo" value="0" type="giBoolean"/>
+    <attribute name="useLocal" value="1" type="giBoolean"/>
+    <attribute name="value" value="703m" type="giString"/>
+    <attribute name="variableType" value="none" type="enVariableType"/>
+   </object>
+   <object version="1" name="variables" type="saDesignVariable">
+    <attribute name="description" value="" type="giString"/>
+    <attribute name="name" value="wp" type="giString"/>
+    <attribute name="useDpo" value="0" type="giBoolean"/>
+    <attribute name="useLocal" value="1" type="giBoolean"/>
+    <attribute name="value" value="350n" type="giString"/>
+    <attribute name="variableType" value="none" type="enVariableType"/>
+   </object>
+   <object version="1" name="variables" type="saDesignVariable">
+    <attribute name="description" value="" type="giString"/>
+    <attribute name="name" value="Rtemp" type="giString"/>
+    <attribute name="useDpo" value="0" type="giBoolean"/>
+    <attribute name="useLocal" value="1" type="giBoolean"/>
+    <attribute name="value" value="0" type="giString"/>
+    <attribute name="variableType" value="none" type="enVariableType"/>
+   </object>
+  </collection>
+ </category>
+ <category name="worstCaseAnalysis">
+  <collection name="worstCaseAnalysis"/>
+ </category>
+ <attribute name="description" value="" type="giString"/>
+ <attribute name="historyCheckPointsDir" value="" type="giString"/>
+ <attribute name="historyResultsInSession" value="0" type="giBoolean"/>
+ <attribute name="id" value="session1" type="giString"/>
+ <attribute name="importWithLoadState" value="0" type="giBoolean"/>
+ <attribute name="preRunProcsSourceFile" value="" type="giString"/>
+ <attribute name="resultsDir" value="~/simulation" type="giString"/>
+ <attribute name="runModeHistoryName" value="" type="giString"/>
+ <attribute name="sequentialRunSetup" value="" type="giString"/>
+ <attribute name="statesDir" value="" type="giString"/>
+ <attribute name="uniqueName" value="Current_reference:C_Bias_TOP_tb:Tangarar_testsuite" type="giString"/>
+</file-format>
