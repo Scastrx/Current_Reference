@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<!--Created by Custom Compiler (TM), build , on Wed Mar  4 10:43:24 2026-->
+<!--Created by Custom Compiler (TM), build , on Wed Mar  4 11:44:55 2026-->
 <file-format name="stateCategory" version="1.0">
  <object name="outputs" type="saOutputs" version="1">
   <collection name="customPlotModes">
@@ -22,8 +22,8 @@
       <attribute name="changedAttrName" value="expr" type="giString"/>
       <attribute name="copy_index" value="1" type="giInt"/>
       <attribute name="description" value="" type="giString"/>
-      <attribute name="errorMessage" value="{[Error]: No data point }" type="giString"/>
-      <attribute name="expr" value="db20(v(/I1A))" type="giString"/>
+      <attribute name="errorMessage" value="" type="giString"/>
+      <attribute name="expr" value="v(/I1A)" type="giString"/>
       <attribute name="goalExpression" value=" None " type="giString"/>
       <attribute name="hasSpec" value="0" type="giBoolean"/>
       <attribute name="imageTitle" value="%e %c %s %m %t" type="giString"/>
@@ -32,27 +32,8 @@
         <attribute name="analysisName" value="" type="giString"/>
         <attribute name="color" value="255:0:0" type="giString"/>
         <attribute name="enabled" value="1" type="giBoolean"/>
-        <attribute name="exprIndex" value="2" type="giInt"/>
-        <attribute name="expression" value="v(/net010)" type="giString"/>
-        <attribute name="global" value="0" type="giBoolean"/>
-        <attribute name="isPlotted" value="0" type="giBoolean"/>
-        <attribute name="logicRadix" value="auto" type="enLogicRadixType"/>
-        <attribute name="modifier" value="" type="giString"/>
-        <attribute name="name" value="1uA" type="giString"/>
-        <attribute name="params" value="" type="giString"/>
-        <attribute name="plot" value="1" type="giBoolean"/>
-        <attribute name="plotType" value="auto" type="enGraphType"/>
-        <attribute name="resultType" value="ac" type="giString"/>
-        <attribute name="type" value="net" type="enOutputType"/>
-        <attribute name="units" value="" type="giString"/>
-        <collection name="values"/>
-       </object>
-       <object name="mappedExpressions" type="wfExpression">
-        <attribute name="analysisName" value="ac" type="giString"/>
-        <attribute name="color" value="255:0:0" type="giString"/>
-        <attribute name="enabled" value="1" type="giBoolean"/>
-        <attribute name="exprIndex" value="2" type="giInt"/>
-        <attribute name="expression" value="db20(v(/I1A))" type="giString"/>
+        <attribute name="exprIndex" value="2000004" type="giInt"/>
+        <attribute name="expression" value="v(/I1A)" type="giString"/>
         <attribute name="global" value="0" type="giBoolean"/>
         <attribute name="isPlotted" value="0" type="giBoolean"/>
         <attribute name="logicRadix" value="auto" type="enLogicRadixType"/>
@@ -61,14 +42,14 @@
         <attribute name="params" value="" type="giString"/>
         <attribute name="plot" value="1" type="giBoolean"/>
         <attribute name="plotType" value="auto" type="enGraphType"/>
-        <attribute name="resultType" value="" type="giString"/>
-        <attribute name="type" value="expression" type="enOutputType"/>
+        <attribute name="resultType" value="ac" type="giString"/>
+        <attribute name="type" value="net" type="enOutputType"/>
         <attribute name="units" value="" type="giString"/>
         <collection name="values"/>
        </object>
       </collection>
       <attribute name="name" value="PSR_I1" type="giString"/>
-      <attribute name="outputType" value="expression" type="enOutputType"/>
+      <attribute name="outputType" value="net" type="enOutputType"/>
       <collection name="overrideSpecs"/>
       <attribute name="plot" value="1" type="giBoolean"/>
       <attribute name="plotType" value="auto" type="enGraphType"/>
@@ -105,18 +86,37 @@
       <attribute name="changedAttrName" value="expr" type="giString"/>
       <attribute name="copy_index" value="0" type="giInt"/>
       <attribute name="description" value="" type="giString"/>
-      <attribute name="errorMessage" value="{[Error]: No data point }" type="giString"/>
-      <attribute name="expr" value="db20(v(/I10A))" type="giString"/>
+      <attribute name="errorMessage" value="" type="giString"/>
+      <attribute name="expr" value="v(/I10A)" type="giString"/>
       <attribute name="goalExpression" value=" None " type="giString"/>
       <attribute name="hasSpec" value="0" type="giBoolean"/>
       <attribute name="imageTitle" value="%e %c %s %m %t" type="giString"/>
       <collection name="mappedExpressions">
        <object name="mappedExpressions" type="wfExpression">
+        <attribute name="analysisName" value="" type="giString"/>
+        <attribute name="color" value="255:0:0" type="giString"/>
+        <attribute name="enabled" value="1" type="giBoolean"/>
+        <attribute name="exprIndex" value="3" type="giInt"/>
+        <attribute name="expression" value="v(/I10A)" type="giString"/>
+        <attribute name="global" value="0" type="giBoolean"/>
+        <attribute name="isPlotted" value="0" type="giBoolean"/>
+        <attribute name="logicRadix" value="auto" type="enLogicRadixType"/>
+        <attribute name="modifier" value="" type="giString"/>
+        <attribute name="name" value="PSR_I10" type="giString"/>
+        <attribute name="params" value="" type="giString"/>
+        <attribute name="plot" value="1" type="giBoolean"/>
+        <attribute name="plotType" value="auto" type="enGraphType"/>
+        <attribute name="resultType" value="ac" type="giString"/>
+        <attribute name="type" value="net" type="enOutputType"/>
+        <attribute name="units" value="" type="giString"/>
+        <collection name="values"/>
+       </object>
+       <object name="mappedExpressions" type="wfExpression">
         <attribute name="analysisName" value="ac" type="giString"/>
         <attribute name="color" value="255:0:0" type="giString"/>
         <attribute name="enabled" value="1" type="giBoolean"/>
         <attribute name="exprIndex" value="3" type="giInt"/>
-        <attribute name="expression" value="db20(v(/I10A))" type="giString"/>
+        <attribute name="expression" value="v(/I10A)" type="giString"/>
         <attribute name="global" value="0" type="giBoolean"/>
         <attribute name="isPlotted" value="0" type="giBoolean"/>
         <attribute name="logicRadix" value="auto" type="enLogicRadixType"/>
@@ -126,20 +126,20 @@
         <attribute name="plot" value="1" type="giBoolean"/>
         <attribute name="plotType" value="auto" type="enGraphType"/>
         <attribute name="resultType" value="" type="giString"/>
-        <attribute name="type" value="expression" type="enOutputType"/>
+        <attribute name="type" value="net" type="enOutputType"/>
         <attribute name="units" value="" type="giString"/>
         <collection name="values"/>
        </object>
       </collection>
       <attribute name="name" value="PSR_I10" type="giString"/>
-      <attribute name="outputType" value="expression" type="enOutputType"/>
+      <attribute name="outputType" value="net" type="enOutputType"/>
       <collection name="overrideSpecs"/>
-      <attribute name="plot" value="1" type="giBoolean"/>
+      <attribute name="plot" value="0" type="giBoolean"/>
       <attribute name="plotType" value="auto" type="enGraphType"/>
       <attribute name="precision" value="6" type="giInt"/>
       <attribute name="probe" value="plotpacket0" type="giString"/>
-      <attribute name="resultsViewer" value="1" type="giBoolean"/>
-      <attribute name="save" value="1" type="giBoolean"/>
+      <attribute name="resultsViewer" value="0" type="giBoolean"/>
+      <attribute name="save" value="0" type="giBoolean"/>
       <attribute name="saveImage" value="0" type="giBoolean"/>
       <collection name="specs">
        <object name="specs" type="saSpecification" version="1">

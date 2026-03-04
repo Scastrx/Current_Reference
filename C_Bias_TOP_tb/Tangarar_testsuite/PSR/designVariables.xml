@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<!--Created by Custom Compiler (TM), build , on Wed Mar  4 10:43:24 2026-->
+<!--Created by Custom Compiler (TM), build , on Wed Mar  4 11:44:55 2026-->
 <file-format name="stateCategory" version="1.0">
  <object name="designVariables" type="saDesignVariables" version="1">
   <attribute name="includeGlobal" value="0" type="giBoolean"/>
@@ -79,6 +79,14 @@
       <attribute name="useDpo" value="0" type="giBoolean"/>
       <attribute name="useLocal" value="0" type="giBoolean"/>
       <attribute name="value" value="" type="giString"/>
+      <attribute name="variableType" value="none" type="enVariableType"/>
+     </object>
+     <object name="designVariables" type="saDesignVariable" version="1">
+      <attribute name="description" value="" type="giString"/>
+      <attribute name="name" value="ac_psr" type="giString"/>
+      <attribute name="useDpo" value="0" type="giBoolean"/>
+      <attribute name="useLocal" value="1" type="giBoolean"/>
+      <attribute name="value" value="1" type="giString"/>
       <attribute name="variableType" value="none" type="enVariableType"/>
      </object>
     </collection>

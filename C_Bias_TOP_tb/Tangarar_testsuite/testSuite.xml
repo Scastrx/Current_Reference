@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<!--Created by Custom Compiler (TM), build , on Wed Mar  4 10:43:23 2026-->
+<!--Created by Custom Compiler (TM), build , on Wed Mar  4 11:44:54 2026-->
 <file-format name="testSuiteData" version="1.0">
  <comment></comment>
  <tsCategory>SAE_test_suite</tsCategory>
@@ -120,6 +120,10 @@
    <attribute name="enableTestSuiteHistory" value="1" type="giBoolean"/>
    <collection name="historyTreeExpandedState">
     <object name="historyTreeExpandedState" type="saPair" version="1">
+     <attribute name="name" value="history_20" type="giString"/>
+     <attribute name="value" value="1" type="giString"/>
+    </object>
+    <object name="historyTreeExpandedState" type="saPair" version="1">
      <attribute name="name" value="history_19" type="giString"/>
      <attribute name="value" value="1" type="giString"/>
     </object>
@@ -153,10 +157,6 @@
     </object>
     <object name="historyTreeExpandedState" type="saPair" version="1">
      <attribute name="name" value="history_11" type="giString"/>
-     <attribute name="value" value="0" type="giString"/>
-    </object>
-    <object name="historyTreeExpandedState" type="saPair" version="1">
-     <attribute name="name" value="history_10" type="giString"/>
      <attribute name="value" value="0" type="giString"/>
     </object>
    </collection>
@@ -268,6 +268,14 @@
    <object name="variables" type="saDesignVariable" version="1">
     <attribute name="description" value="" type="giString"/>
     <attribute name="name" value="Rtemp" type="giString"/>
+    <attribute name="useDpo" value="0" type="giBoolean"/>
+    <attribute name="useLocal" value="1" type="giBoolean"/>
+    <attribute name="value" value="0" type="giString"/>
+    <attribute name="variableType" value="none" type="enVariableType"/>
+   </object>
+   <object name="variables" type="saDesignVariable" version="1">
+    <attribute name="description" value="" type="giString"/>
+    <attribute name="name" value="ac_psr" type="giString"/>
     <attribute name="useDpo" value="0" type="giBoolean"/>
     <attribute name="useLocal" value="1" type="giBoolean"/>
     <attribute name="value" value="0" type="giString"/>
