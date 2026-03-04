@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<!--Created by Custom Compiler (TM), build , on Wed Mar  4 15:22:49 2026-->
+<file-format version="1.0" name="stateData">
+ <attribute value="0" type="giBoolean" name="dcop_splitted"/>
+ <attribute value="" type="giString" name="description"/>
+ <attribute value="Current_Reference/C_Bias_OTA_tb/config" type="dmCellView" name="design"/>
+ <attribute value="0" type="giBoolean" name="enabled"/>
+ <attribute value="0" type="giBoolean" name="enabledJobClass"/>
+ <attribute value="" type="giString" name="migratedSimulator"/>
+ <attribute value="PSR" type="giString" name="name"/>
+ <attribute value="//" type="dmCellView" name="openaccessState"/>
+ <attribute value="PrimeSim" type="giString" name="simulator"/>
+ <comment>Testbench of 'OTA_tb' test suite.</comment>
+ <integration version="1"/>
+</file-format>
