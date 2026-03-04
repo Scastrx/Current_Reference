@@ -1,411 +1,411 @@
 <?xml version="1.0"?>
-<!--Created by Custom Compiler (TM), build , on Mon Mar  2 19:07:45 2026-->
+<!--Created by Custom Compiler (TM), build , on Wed Mar  4 10:43:23 2026-->
 <file-format name="stateCategory" version="1.0">
  <object name="outputs" type="saOutputs" version="1">
   <collection name="customPlotModes">
    <object name="customPlotModes" type="wfCustomPlotMode" version="1">
-    <attribute name="isAlltbs" type="giBoolean" value="0"/>
-    <attribute name="isGlobal" type="giBoolean" value="0"/>
-    <attribute name="name" type="giString" value="last"/>
+    <attribute name="isAlltbs" value="0" type="giBoolean"/>
+    <attribute name="isGlobal" value="0" type="giBoolean"/>
+    <attribute name="name" value="last" type="giString"/>
    </object>
   </collection>
-  <attribute name="importMeasures" type="giBoolean" value="1"/>
-  <attribute name="outputSet" type="giString" value="default"/>
+  <attribute name="importMeasures" value="1" type="giBoolean"/>
+  <attribute name="outputSet" value="default" type="giString"/>
   <collection name="outputSets">
    <object name="outputSets" type="saOutputSet" version="1">
     <collection name="histogramCharts"/>
-    <attribute name="name" type="giString" value="default"/>
+    <attribute name="name" value="default" type="giString"/>
     <collection name="outputs">
      <object name="outputs" type="saOutput" version="1">
-      <attribute name="addDefaultOP" type="giBoolean" value="1"/>
-      <attribute name="analyses" type="giString" value="noise"/>
-      <attribute name="changedAttrName" type="giString" value=""/>
-      <attribute name="copy_index" type="giInt" value="0"/>
-      <attribute name="description" type="giString" value=""/>
-      <attribute name="errorMessage" type="giString" value=""/>
-      <attribute name="expr" type="giString" value="data(dataType=gain, analysisName=&quot;noise&quot;)"/>
-      <attribute name="goalExpression" type="giString" value=" None "/>
-      <attribute name="hasSpec" type="giBoolean" value="0"/>
-      <attribute name="imageTitle" type="giString" value="%e %c %s %m %t"/>
+      <attribute name="addDefaultOP" value="1" type="giBoolean"/>
+      <attribute name="analyses" value="noise" type="giString"/>
+      <attribute name="changedAttrName" value="" type="giString"/>
+      <attribute name="copy_index" value="0" type="giInt"/>
+      <attribute name="description" value="" type="giString"/>
+      <attribute name="errorMessage" value="" type="giString"/>
+      <attribute name="expr" value="data(dataType=gain, analysisName=&quot;noise&quot;)" type="giString"/>
+      <attribute name="goalExpression" value=" None " type="giString"/>
+      <attribute name="hasSpec" value="0" type="giBoolean"/>
+      <attribute name="imageTitle" value="%e %c %s %m %t" type="giString"/>
       <collection name="mappedExpressions">
        <object name="mappedExpressions" type="wfExpression">
-        <attribute name="analysisName" type="giString" value=""/>
-        <attribute name="color" type="giString" value=""/>
-        <attribute name="enabled" type="giBoolean" value="1"/>
-        <attribute name="exprIndex" type="giInt" value="2"/>
-        <attribute name="expression" type="giString" value="data(dataType=gain, analysisName=&quot;noise&quot;)"/>
-        <attribute name="global" type="giBoolean" value="0"/>
-        <attribute name="isPlotted" type="giBoolean" value="0"/>
-        <attribute name="logicRadix" type="enLogicRadixType" value="auto"/>
-        <attribute name="modifier" type="giString" value=""/>
-        <attribute name="name" type="giString" value="GainNoise"/>
-        <attribute name="params" type="giString" value=""/>
-        <attribute name="plot" type="giBoolean" value="0"/>
-        <attribute name="plotType" type="enGraphType" value="auto"/>
-        <attribute name="resultType" type="giString" value="noise"/>
-        <attribute name="type" type="enOutputType" value="expression"/>
-        <attribute name="units" type="giString" value=""/>
+        <attribute name="analysisName" value="" type="giString"/>
+        <attribute name="color" value="" type="giString"/>
+        <attribute name="enabled" value="1" type="giBoolean"/>
+        <attribute name="exprIndex" value="2" type="giInt"/>
+        <attribute name="expression" value="data(dataType=gain, analysisName=&quot;noise&quot;)" type="giString"/>
+        <attribute name="global" value="0" type="giBoolean"/>
+        <attribute name="isPlotted" value="0" type="giBoolean"/>
+        <attribute name="logicRadix" value="auto" type="enLogicRadixType"/>
+        <attribute name="modifier" value="" type="giString"/>
+        <attribute name="name" value="GainNoise" type="giString"/>
+        <attribute name="params" value="" type="giString"/>
+        <attribute name="plot" value="0" type="giBoolean"/>
+        <attribute name="plotType" value="auto" type="enGraphType"/>
+        <attribute name="resultType" value="noise" type="giString"/>
+        <attribute name="type" value="expression" type="enOutputType"/>
+        <attribute name="units" value="" type="giString"/>
         <collection name="values"/>
        </object>
       </collection>
-      <attribute name="name" type="giString" value="GainNoise"/>
-      <attribute name="outputType" type="enOutputType" value="expression"/>
+      <attribute name="name" value="GainNoise" type="giString"/>
+      <attribute name="outputType" value="expression" type="enOutputType"/>
       <collection name="overrideSpecs"/>
-      <attribute name="plot" type="giBoolean" value="0"/>
-      <attribute name="plotType" type="enGraphType" value="auto"/>
-      <attribute name="precision" type="giInt" value="6"/>
-      <attribute name="probe" type="giString" value=""/>
-      <attribute name="resultsViewer" type="giBoolean" value="1"/>
-      <attribute name="save" type="giBoolean" value="1"/>
-      <attribute name="saveImage" type="giBoolean" value="0"/>
+      <attribute name="plot" value="0" type="giBoolean"/>
+      <attribute name="plotType" value="auto" type="enGraphType"/>
+      <attribute name="precision" value="6" type="giInt"/>
+      <attribute name="probe" value="" type="giString"/>
+      <attribute name="resultsViewer" value="1" type="giBoolean"/>
+      <attribute name="save" value="1" type="giBoolean"/>
+      <attribute name="saveImage" value="0" type="giBoolean"/>
       <collection name="specs">
        <object name="specs" type="saSpecification" version="1">
-        <attribute name="analysis" type="giString" value=""/>
-        <attribute name="cornerName" type="giString" value=""/>
-        <attribute name="enabled" type="giBoolean" value="1"/>
-        <attribute name="extGoalType" type="enGoalType" value="Greater Than"/>
-        <attribute name="goal" type="giString" value=""/>
-        <attribute name="goalExpression" type="giString" value=" None "/>
-        <attribute name="goalHigh" type="giString" value=""/>
-        <attribute name="goalLow" type="giString" value=""/>
-        <attribute name="goalType" type="enGoalType" value="Greater Than"/>
-        <attribute name="poor" type="giString" value="0%"/>
-        <attribute name="poorHigh" type="giString" value="0%"/>
-        <attribute name="poorLow" type="giString" value="0%"/>
-        <attribute name="tailType" type="enTailType" value="Both"/>
-        <attribute name="weight" type="giString" value="1"/>
+        <attribute name="analysis" value="" type="giString"/>
+        <attribute name="cornerName" value="" type="giString"/>
+        <attribute name="enabled" value="1" type="giBoolean"/>
+        <attribute name="extGoalType" value="Greater Than" type="enGoalType"/>
+        <attribute name="goal" value="" type="giString"/>
+        <attribute name="goalExpression" value=" None " type="giString"/>
+        <attribute name="goalHigh" value="" type="giString"/>
+        <attribute name="goalLow" value="" type="giString"/>
+        <attribute name="goalType" value="Greater Than" type="enGoalType"/>
+        <attribute name="poor" value="0%" type="giString"/>
+        <attribute name="poorHigh" value="0%" type="giString"/>
+        <attribute name="poorLow" value="0%" type="giString"/>
+        <attribute name="tailType" value="Both" type="enTailType"/>
+        <attribute name="weight" value="1" type="giString"/>
        </object>
       </collection>
-      <attribute name="suffix" type="giString" value=""/>
-      <attribute name="units" type="giString" value=""/>
-      <attribute name="valueChangeEnabled" type="giBoolean" value="1"/>
+      <attribute name="suffix" value="" type="giString"/>
+      <attribute name="units" value="" type="giString"/>
+      <attribute name="valueChangeEnabled" value="1" type="giBoolean"/>
      </object>
      <object name="outputs" type="saOutput" version="1">
-      <attribute name="addDefaultOP" type="giBoolean" value="1"/>
-      <attribute name="analyses" type="giString" value="noise"/>
-      <attribute name="changedAttrName" type="giString" value="expr"/>
-      <attribute name="copy_index" type="giInt" value="0"/>
-      <attribute name="description" type="giString" value=""/>
-      <attribute name="errorMessage" type="giString" value=""/>
-      <attribute name="expr" type="giString" value="inoise(analysisName=&quot;noise&quot;)"/>
-      <attribute name="goalExpression" type="giString" value=" None "/>
-      <attribute name="hasSpec" type="giBoolean" value="0"/>
-      <attribute name="imageTitle" type="giString" value="%e %c %s %m %t"/>
+      <attribute name="addDefaultOP" value="1" type="giBoolean"/>
+      <attribute name="analyses" value="noise" type="giString"/>
+      <attribute name="changedAttrName" value="expr" type="giString"/>
+      <attribute name="copy_index" value="0" type="giInt"/>
+      <attribute name="description" value="" type="giString"/>
+      <attribute name="errorMessage" value="" type="giString"/>
+      <attribute name="expr" value="inoise(analysisName=&quot;noise&quot;)" type="giString"/>
+      <attribute name="goalExpression" value=" None " type="giString"/>
+      <attribute name="hasSpec" value="0" type="giBoolean"/>
+      <attribute name="imageTitle" value="%e %c %s %m %t" type="giString"/>
       <collection name="mappedExpressions">
        <object name="mappedExpressions" type="wfExpression">
-        <attribute name="analysisName" type="giString" value=""/>
-        <attribute name="color" type="giString" value=""/>
-        <attribute name="enabled" type="giBoolean" value="1"/>
-        <attribute name="exprIndex" type="giInt" value="3"/>
-        <attribute name="expression" type="giString" value="inoise(analysisName=&quot;noise&quot;)"/>
-        <attribute name="global" type="giBoolean" value="0"/>
-        <attribute name="isPlotted" type="giBoolean" value="0"/>
-        <attribute name="logicRadix" type="enLogicRadixType" value="auto"/>
-        <attribute name="modifier" type="giString" value=""/>
-        <attribute name="name" type="giString" value="InputNoise"/>
-        <attribute name="params" type="giString" value=""/>
-        <attribute name="plot" type="giBoolean" value="0"/>
-        <attribute name="plotType" type="enGraphType" value="auto"/>
-        <attribute name="resultType" type="giString" value="noise"/>
-        <attribute name="type" type="enOutputType" value="expression"/>
-        <attribute name="units" type="giString" value=""/>
+        <attribute name="analysisName" value="" type="giString"/>
+        <attribute name="color" value="" type="giString"/>
+        <attribute name="enabled" value="1" type="giBoolean"/>
+        <attribute name="exprIndex" value="3" type="giInt"/>
+        <attribute name="expression" value="inoise(analysisName=&quot;noise&quot;)" type="giString"/>
+        <attribute name="global" value="0" type="giBoolean"/>
+        <attribute name="isPlotted" value="0" type="giBoolean"/>
+        <attribute name="logicRadix" value="auto" type="enLogicRadixType"/>
+        <attribute name="modifier" value="" type="giString"/>
+        <attribute name="name" value="InputNoise" type="giString"/>
+        <attribute name="params" value="" type="giString"/>
+        <attribute name="plot" value="0" type="giBoolean"/>
+        <attribute name="plotType" value="auto" type="enGraphType"/>
+        <attribute name="resultType" value="noise" type="giString"/>
+        <attribute name="type" value="expression" type="enOutputType"/>
+        <attribute name="units" value="" type="giString"/>
         <collection name="values"/>
        </object>
       </collection>
-      <attribute name="name" type="giString" value="InputNoise"/>
-      <attribute name="outputType" type="enOutputType" value="expression"/>
+      <attribute name="name" value="InputNoise" type="giString"/>
+      <attribute name="outputType" value="expression" type="enOutputType"/>
       <collection name="overrideSpecs"/>
-      <attribute name="plot" type="giBoolean" value="0"/>
-      <attribute name="plotType" type="enGraphType" value="auto"/>
-      <attribute name="precision" type="giInt" value="6"/>
-      <attribute name="probe" type="giString" value=""/>
-      <attribute name="resultsViewer" type="giBoolean" value="1"/>
-      <attribute name="save" type="giBoolean" value="1"/>
-      <attribute name="saveImage" type="giBoolean" value="0"/>
+      <attribute name="plot" value="0" type="giBoolean"/>
+      <attribute name="plotType" value="auto" type="enGraphType"/>
+      <attribute name="precision" value="6" type="giInt"/>
+      <attribute name="probe" value="" type="giString"/>
+      <attribute name="resultsViewer" value="1" type="giBoolean"/>
+      <attribute name="save" value="1" type="giBoolean"/>
+      <attribute name="saveImage" value="0" type="giBoolean"/>
       <collection name="specs">
        <object name="specs" type="saSpecification" version="1">
-        <attribute name="analysis" type="giString" value=""/>
-        <attribute name="cornerName" type="giString" value=""/>
-        <attribute name="enabled" type="giBoolean" value="1"/>
-        <attribute name="extGoalType" type="enGoalType" value="Greater Than"/>
-        <attribute name="goal" type="giString" value=""/>
-        <attribute name="goalExpression" type="giString" value=" None "/>
-        <attribute name="goalHigh" type="giString" value=""/>
-        <attribute name="goalLow" type="giString" value=""/>
-        <attribute name="goalType" type="enGoalType" value="Greater Than"/>
-        <attribute name="poor" type="giString" value="0%"/>
-        <attribute name="poorHigh" type="giString" value="0%"/>
-        <attribute name="poorLow" type="giString" value="0%"/>
-        <attribute name="tailType" type="enTailType" value="Both"/>
-        <attribute name="weight" type="giString" value="1"/>
+        <attribute name="analysis" value="" type="giString"/>
+        <attribute name="cornerName" value="" type="giString"/>
+        <attribute name="enabled" value="1" type="giBoolean"/>
+        <attribute name="extGoalType" value="Greater Than" type="enGoalType"/>
+        <attribute name="goal" value="" type="giString"/>
+        <attribute name="goalExpression" value=" None " type="giString"/>
+        <attribute name="goalHigh" value="" type="giString"/>
+        <attribute name="goalLow" value="" type="giString"/>
+        <attribute name="goalType" value="Greater Than" type="enGoalType"/>
+        <attribute name="poor" value="0%" type="giString"/>
+        <attribute name="poorHigh" value="0%" type="giString"/>
+        <attribute name="poorLow" value="0%" type="giString"/>
+        <attribute name="tailType" value="Both" type="enTailType"/>
+        <attribute name="weight" value="1" type="giString"/>
        </object>
       </collection>
-      <attribute name="suffix" type="giString" value=""/>
-      <attribute name="units" type="giString" value=""/>
-      <attribute name="valueChangeEnabled" type="giBoolean" value="1"/>
+      <attribute name="suffix" value="" type="giString"/>
+      <attribute name="units" value="" type="giString"/>
+      <attribute name="valueChangeEnabled" value="1" type="giBoolean"/>
      </object>
      <object name="outputs" type="saOutput" version="1">
-      <attribute name="addDefaultOP" type="giBoolean" value="1"/>
-      <attribute name="analyses" type="giString" value="noise"/>
-      <attribute name="changedAttrName" type="giString" value="name"/>
-      <attribute name="copy_index" type="giInt" value="2"/>
-      <attribute name="description" type="giString" value=""/>
-      <attribute name="errorMessage" type="giString" value=""/>
-      <attribute name="expr" type="giString" value="onoise(analysisName=&quot;noise&quot;)"/>
-      <attribute name="goalExpression" type="giString" value=" None "/>
-      <attribute name="hasSpec" type="giBoolean" value="0"/>
-      <attribute name="imageTitle" type="giString" value="%e %c %s %m %t"/>
+      <attribute name="addDefaultOP" value="1" type="giBoolean"/>
+      <attribute name="analyses" value="noise" type="giString"/>
+      <attribute name="changedAttrName" value="name" type="giString"/>
+      <attribute name="copy_index" value="2" type="giInt"/>
+      <attribute name="description" value="" type="giString"/>
+      <attribute name="errorMessage" value="" type="giString"/>
+      <attribute name="expr" value="onoise(analysisName=&quot;noise&quot;)" type="giString"/>
+      <attribute name="goalExpression" value=" None " type="giString"/>
+      <attribute name="hasSpec" value="0" type="giBoolean"/>
+      <attribute name="imageTitle" value="%e %c %s %m %t" type="giString"/>
       <collection name="mappedExpressions">
        <object name="mappedExpressions" type="wfExpression">
-        <attribute name="analysisName" type="giString" value=""/>
-        <attribute name="color" type="giString" value=""/>
-        <attribute name="enabled" type="giBoolean" value="1"/>
-        <attribute name="exprIndex" type="giInt" value="4"/>
-        <attribute name="expression" type="giString" value="onoise(analysisName=&quot;noise&quot;)"/>
-        <attribute name="global" type="giBoolean" value="0"/>
-        <attribute name="isPlotted" type="giBoolean" value="0"/>
-        <attribute name="logicRadix" type="enLogicRadixType" value="auto"/>
-        <attribute name="modifier" type="giString" value=""/>
-        <attribute name="name" type="giString" value="OutputNoise"/>
-        <attribute name="params" type="giString" value=""/>
-        <attribute name="plot" type="giBoolean" value="0"/>
-        <attribute name="plotType" type="enGraphType" value="auto"/>
-        <attribute name="resultType" type="giString" value="noise"/>
-        <attribute name="type" type="enOutputType" value="expression"/>
-        <attribute name="units" type="giString" value=""/>
+        <attribute name="analysisName" value="" type="giString"/>
+        <attribute name="color" value="" type="giString"/>
+        <attribute name="enabled" value="1" type="giBoolean"/>
+        <attribute name="exprIndex" value="4" type="giInt"/>
+        <attribute name="expression" value="onoise(analysisName=&quot;noise&quot;)" type="giString"/>
+        <attribute name="global" value="0" type="giBoolean"/>
+        <attribute name="isPlotted" value="0" type="giBoolean"/>
+        <attribute name="logicRadix" value="auto" type="enLogicRadixType"/>
+        <attribute name="modifier" value="" type="giString"/>
+        <attribute name="name" value="OutputNoise" type="giString"/>
+        <attribute name="params" value="" type="giString"/>
+        <attribute name="plot" value="0" type="giBoolean"/>
+        <attribute name="plotType" value="auto" type="enGraphType"/>
+        <attribute name="resultType" value="noise" type="giString"/>
+        <attribute name="type" value="expression" type="enOutputType"/>
+        <attribute name="units" value="" type="giString"/>
         <collection name="values"/>
        </object>
       </collection>
-      <attribute name="name" type="giString" value="OutputNoise"/>
-      <attribute name="outputType" type="enOutputType" value="expression"/>
+      <attribute name="name" value="OutputNoise" type="giString"/>
+      <attribute name="outputType" value="expression" type="enOutputType"/>
       <collection name="overrideSpecs"/>
-      <attribute name="plot" type="giBoolean" value="0"/>
-      <attribute name="plotType" type="enGraphType" value="auto"/>
-      <attribute name="precision" type="giInt" value="6"/>
-      <attribute name="probe" type="giString" value=""/>
-      <attribute name="resultsViewer" type="giBoolean" value="1"/>
-      <attribute name="save" type="giBoolean" value="1"/>
-      <attribute name="saveImage" type="giBoolean" value="0"/>
+      <attribute name="plot" value="0" type="giBoolean"/>
+      <attribute name="plotType" value="auto" type="enGraphType"/>
+      <attribute name="precision" value="6" type="giInt"/>
+      <attribute name="probe" value="" type="giString"/>
+      <attribute name="resultsViewer" value="1" type="giBoolean"/>
+      <attribute name="save" value="1" type="giBoolean"/>
+      <attribute name="saveImage" value="0" type="giBoolean"/>
       <collection name="specs">
        <object name="specs" type="saSpecification" version="1">
-        <attribute name="analysis" type="giString" value=""/>
-        <attribute name="cornerName" type="giString" value=""/>
-        <attribute name="enabled" type="giBoolean" value="1"/>
-        <attribute name="extGoalType" type="enGoalType" value="Greater Than"/>
-        <attribute name="goal" type="giString" value=""/>
-        <attribute name="goalExpression" type="giString" value=" None "/>
-        <attribute name="goalHigh" type="giString" value=""/>
-        <attribute name="goalLow" type="giString" value=""/>
-        <attribute name="goalType" type="enGoalType" value="Greater Than"/>
-        <attribute name="poor" type="giString" value="0%"/>
-        <attribute name="poorHigh" type="giString" value="0%"/>
-        <attribute name="poorLow" type="giString" value="0%"/>
-        <attribute name="tailType" type="enTailType" value="Both"/>
-        <attribute name="weight" type="giString" value="1"/>
+        <attribute name="analysis" value="" type="giString"/>
+        <attribute name="cornerName" value="" type="giString"/>
+        <attribute name="enabled" value="1" type="giBoolean"/>
+        <attribute name="extGoalType" value="Greater Than" type="enGoalType"/>
+        <attribute name="goal" value="" type="giString"/>
+        <attribute name="goalExpression" value=" None " type="giString"/>
+        <attribute name="goalHigh" value="" type="giString"/>
+        <attribute name="goalLow" value="" type="giString"/>
+        <attribute name="goalType" value="Greater Than" type="enGoalType"/>
+        <attribute name="poor" value="0%" type="giString"/>
+        <attribute name="poorHigh" value="0%" type="giString"/>
+        <attribute name="poorLow" value="0%" type="giString"/>
+        <attribute name="tailType" value="Both" type="enTailType"/>
+        <attribute name="weight" value="1" type="giString"/>
        </object>
       </collection>
-      <attribute name="suffix" type="giString" value=""/>
-      <attribute name="units" type="giString" value=""/>
-      <attribute name="valueChangeEnabled" type="giBoolean" value="1"/>
+      <attribute name="suffix" value="" type="giString"/>
+      <attribute name="units" value="" type="giString"/>
+      <attribute name="valueChangeEnabled" value="1" type="giBoolean"/>
      </object>
      <object name="outputs" type="saOutput" version="1">
-      <attribute name="addDefaultOP" type="giBoolean" value="1"/>
-      <attribute name="analyses" type="giString" value="noise"/>
-      <attribute name="changedAttrName" type="giString" value="expr"/>
-      <attribute name="copy_index" type="giInt" value="0"/>
-      <attribute name="description" type="giString" value=""/>
-      <attribute name="errorMessage" type="giString" value=""/>
-      <attribute name="expr" type="giString" value="onoise(analysisName=&quot;noise&quot;) ^2"/>
-      <attribute name="goalExpression" type="giString" value=" None "/>
-      <attribute name="hasSpec" type="giBoolean" value="0"/>
-      <attribute name="imageTitle" type="giString" value="%e %c %s %m %t"/>
+      <attribute name="addDefaultOP" value="1" type="giBoolean"/>
+      <attribute name="analyses" value="noise" type="giString"/>
+      <attribute name="changedAttrName" value="expr" type="giString"/>
+      <attribute name="copy_index" value="0" type="giInt"/>
+      <attribute name="description" value="" type="giString"/>
+      <attribute name="errorMessage" value="" type="giString"/>
+      <attribute name="expr" value="onoise(analysisName=&quot;noise&quot;) ^2" type="giString"/>
+      <attribute name="goalExpression" value=" None " type="giString"/>
+      <attribute name="hasSpec" value="0" type="giBoolean"/>
+      <attribute name="imageTitle" value="%e %c %s %m %t" type="giString"/>
       <collection name="mappedExpressions">
        <object name="mappedExpressions" type="wfExpression">
-        <attribute name="analysisName" type="giString" value=""/>
-        <attribute name="color" type="giString" value=""/>
-        <attribute name="enabled" type="giBoolean" value="1"/>
-        <attribute name="exprIndex" type="giInt" value="5"/>
-        <attribute name="expression" type="giString" value="onoise(analysisName=&quot;noise&quot;) ^2"/>
-        <attribute name="global" type="giBoolean" value="0"/>
-        <attribute name="isPlotted" type="giBoolean" value="0"/>
-        <attribute name="logicRadix" type="enLogicRadixType" value="auto"/>
-        <attribute name="modifier" type="giString" value=""/>
-        <attribute name="name" type="giString" value="PSD"/>
-        <attribute name="params" type="giString" value=""/>
-        <attribute name="plot" type="giBoolean" value="0"/>
-        <attribute name="plotType" type="enGraphType" value="auto"/>
-        <attribute name="resultType" type="giString" value="noise"/>
-        <attribute name="type" type="enOutputType" value="expression"/>
-        <attribute name="units" type="giString" value=""/>
+        <attribute name="analysisName" value="" type="giString"/>
+        <attribute name="color" value="" type="giString"/>
+        <attribute name="enabled" value="1" type="giBoolean"/>
+        <attribute name="exprIndex" value="5" type="giInt"/>
+        <attribute name="expression" value="onoise(analysisName=&quot;noise&quot;) ^2" type="giString"/>
+        <attribute name="global" value="0" type="giBoolean"/>
+        <attribute name="isPlotted" value="0" type="giBoolean"/>
+        <attribute name="logicRadix" value="auto" type="enLogicRadixType"/>
+        <attribute name="modifier" value="" type="giString"/>
+        <attribute name="name" value="PSD" type="giString"/>
+        <attribute name="params" value="" type="giString"/>
+        <attribute name="plot" value="0" type="giBoolean"/>
+        <attribute name="plotType" value="auto" type="enGraphType"/>
+        <attribute name="resultType" value="noise" type="giString"/>
+        <attribute name="type" value="expression" type="enOutputType"/>
+        <attribute name="units" value="" type="giString"/>
         <collection name="values"/>
        </object>
       </collection>
-      <attribute name="name" type="giString" value="PSD"/>
-      <attribute name="outputType" type="enOutputType" value="expression"/>
+      <attribute name="name" value="PSD" type="giString"/>
+      <attribute name="outputType" value="expression" type="enOutputType"/>
       <collection name="overrideSpecs"/>
-      <attribute name="plot" type="giBoolean" value="0"/>
-      <attribute name="plotType" type="enGraphType" value="auto"/>
-      <attribute name="precision" type="giInt" value="6"/>
-      <attribute name="probe" type="giString" value=""/>
-      <attribute name="resultsViewer" type="giBoolean" value="1"/>
-      <attribute name="save" type="giBoolean" value="1"/>
-      <attribute name="saveImage" type="giBoolean" value="0"/>
+      <attribute name="plot" value="0" type="giBoolean"/>
+      <attribute name="plotType" value="auto" type="enGraphType"/>
+      <attribute name="precision" value="6" type="giInt"/>
+      <attribute name="probe" value="" type="giString"/>
+      <attribute name="resultsViewer" value="1" type="giBoolean"/>
+      <attribute name="save" value="1" type="giBoolean"/>
+      <attribute name="saveImage" value="0" type="giBoolean"/>
       <collection name="specs">
        <object name="specs" type="saSpecification" version="1">
-        <attribute name="analysis" type="giString" value=""/>
-        <attribute name="cornerName" type="giString" value=""/>
-        <attribute name="enabled" type="giBoolean" value="1"/>
-        <attribute name="extGoalType" type="enGoalType" value="Greater Than"/>
-        <attribute name="goal" type="giString" value=""/>
-        <attribute name="goalExpression" type="giString" value=" None "/>
-        <attribute name="goalHigh" type="giString" value=""/>
-        <attribute name="goalLow" type="giString" value=""/>
-        <attribute name="goalType" type="enGoalType" value="Greater Than"/>
-        <attribute name="poor" type="giString" value="0%"/>
-        <attribute name="poorHigh" type="giString" value="0%"/>
-        <attribute name="poorLow" type="giString" value="0%"/>
-        <attribute name="tailType" type="enTailType" value="Both"/>
-        <attribute name="weight" type="giString" value="1"/>
+        <attribute name="analysis" value="" type="giString"/>
+        <attribute name="cornerName" value="" type="giString"/>
+        <attribute name="enabled" value="1" type="giBoolean"/>
+        <attribute name="extGoalType" value="Greater Than" type="enGoalType"/>
+        <attribute name="goal" value="" type="giString"/>
+        <attribute name="goalExpression" value=" None " type="giString"/>
+        <attribute name="goalHigh" value="" type="giString"/>
+        <attribute name="goalLow" value="" type="giString"/>
+        <attribute name="goalType" value="Greater Than" type="enGoalType"/>
+        <attribute name="poor" value="0%" type="giString"/>
+        <attribute name="poorHigh" value="0%" type="giString"/>
+        <attribute name="poorLow" value="0%" type="giString"/>
+        <attribute name="tailType" value="Both" type="enTailType"/>
+        <attribute name="weight" value="1" type="giString"/>
        </object>
       </collection>
-      <attribute name="suffix" type="giString" value=""/>
-      <attribute name="units" type="giString" value=""/>
-      <attribute name="valueChangeEnabled" type="giBoolean" value="1"/>
+      <attribute name="suffix" value="" type="giString"/>
+      <attribute name="units" value="" type="giString"/>
+      <attribute name="valueChangeEnabled" value="1" type="giBoolean"/>
      </object>
      <object name="outputs" type="saOutput" version="1">
-      <attribute name="addDefaultOP" type="giBoolean" value="1"/>
-      <attribute name="analyses" type="giString" value=""/>
-      <attribute name="changedAttrName" type="giString" value="expr"/>
-      <attribute name="copy_index" type="giInt" value="0"/>
-      <attribute name="description" type="giString" value=""/>
-      <attribute name="errorMessage" type="giString" value=""/>
-      <attribute name="expr" type="giString" value="integ(PSD,1,10M)"/>
-      <attribute name="goalExpression" type="giString" value=" None "/>
-      <attribute name="hasSpec" type="giBoolean" value="0"/>
-      <attribute name="imageTitle" type="giString" value="%e %c %s %m %t"/>
+      <attribute name="addDefaultOP" value="1" type="giBoolean"/>
+      <attribute name="analyses" value="" type="giString"/>
+      <attribute name="changedAttrName" value="expr" type="giString"/>
+      <attribute name="copy_index" value="0" type="giInt"/>
+      <attribute name="description" value="" type="giString"/>
+      <attribute name="errorMessage" value="" type="giString"/>
+      <attribute name="expr" value="integ(PSD,1,10M)" type="giString"/>
+      <attribute name="goalExpression" value=" None " type="giString"/>
+      <attribute name="hasSpec" value="0" type="giBoolean"/>
+      <attribute name="imageTitle" value="%e %c %s %m %t" type="giString"/>
       <collection name="mappedExpressions">
        <object name="mappedExpressions" type="wfExpression">
-        <attribute name="analysisName" type="giString" value=""/>
-        <attribute name="color" type="giString" value=""/>
-        <attribute name="enabled" type="giBoolean" value="1"/>
-        <attribute name="exprIndex" type="giInt" value="6"/>
-        <attribute name="expression" type="giString" value="integ(PSD,1,10M)"/>
-        <attribute name="global" type="giBoolean" value="0"/>
-        <attribute name="isPlotted" type="giBoolean" value="0"/>
-        <attribute name="logicRadix" type="enLogicRadixType" value="auto"/>
-        <attribute name="modifier" type="giString" value=""/>
-        <attribute name="name" type="giString" value="Ptotal"/>
-        <attribute name="params" type="giString" value=""/>
-        <attribute name="plot" type="giBoolean" value="0"/>
-        <attribute name="plotType" type="enGraphType" value="auto"/>
-        <attribute name="resultType" type="giString" value="noise"/>
-        <attribute name="type" type="enOutputType" value="expression"/>
-        <attribute name="units" type="giString" value=""/>
+        <attribute name="analysisName" value="" type="giString"/>
+        <attribute name="color" value="" type="giString"/>
+        <attribute name="enabled" value="1" type="giBoolean"/>
+        <attribute name="exprIndex" value="6" type="giInt"/>
+        <attribute name="expression" value="integ(PSD,1,10M)" type="giString"/>
+        <attribute name="global" value="0" type="giBoolean"/>
+        <attribute name="isPlotted" value="0" type="giBoolean"/>
+        <attribute name="logicRadix" value="auto" type="enLogicRadixType"/>
+        <attribute name="modifier" value="" type="giString"/>
+        <attribute name="name" value="Ptotal" type="giString"/>
+        <attribute name="params" value="" type="giString"/>
+        <attribute name="plot" value="0" type="giBoolean"/>
+        <attribute name="plotType" value="auto" type="enGraphType"/>
+        <attribute name="resultType" value="noise" type="giString"/>
+        <attribute name="type" value="expression" type="enOutputType"/>
+        <attribute name="units" value="" type="giString"/>
         <collection name="values"/>
        </object>
       </collection>
-      <attribute name="name" type="giString" value="Ptotal"/>
-      <attribute name="outputType" type="enOutputType" value="expression"/>
+      <attribute name="name" value="Ptotal" type="giString"/>
+      <attribute name="outputType" value="expression" type="enOutputType"/>
       <collection name="overrideSpecs"/>
-      <attribute name="plot" type="giBoolean" value="0"/>
-      <attribute name="plotType" type="enGraphType" value="auto"/>
-      <attribute name="precision" type="giInt" value="6"/>
-      <attribute name="probe" type="giString" value=""/>
-      <attribute name="resultsViewer" type="giBoolean" value="1"/>
-      <attribute name="save" type="giBoolean" value="1"/>
-      <attribute name="saveImage" type="giBoolean" value="0"/>
+      <attribute name="plot" value="0" type="giBoolean"/>
+      <attribute name="plotType" value="auto" type="enGraphType"/>
+      <attribute name="precision" value="6" type="giInt"/>
+      <attribute name="probe" value="" type="giString"/>
+      <attribute name="resultsViewer" value="1" type="giBoolean"/>
+      <attribute name="save" value="1" type="giBoolean"/>
+      <attribute name="saveImage" value="0" type="giBoolean"/>
       <collection name="specs">
        <object name="specs" type="saSpecification" version="1">
-        <attribute name="analysis" type="giString" value=""/>
-        <attribute name="cornerName" type="giString" value=""/>
-        <attribute name="enabled" type="giBoolean" value="1"/>
-        <attribute name="extGoalType" type="enGoalType" value="Greater Than"/>
-        <attribute name="goal" type="giString" value=""/>
-        <attribute name="goalExpression" type="giString" value=" None "/>
-        <attribute name="goalHigh" type="giString" value=""/>
-        <attribute name="goalLow" type="giString" value=""/>
-        <attribute name="goalType" type="enGoalType" value="Greater Than"/>
-        <attribute name="poor" type="giString" value="0%"/>
-        <attribute name="poorHigh" type="giString" value="0%"/>
-        <attribute name="poorLow" type="giString" value="0%"/>
-        <attribute name="tailType" type="enTailType" value="Both"/>
-        <attribute name="weight" type="giString" value="1"/>
+        <attribute name="analysis" value="" type="giString"/>
+        <attribute name="cornerName" value="" type="giString"/>
+        <attribute name="enabled" value="1" type="giBoolean"/>
+        <attribute name="extGoalType" value="Greater Than" type="enGoalType"/>
+        <attribute name="goal" value="" type="giString"/>
+        <attribute name="goalExpression" value=" None " type="giString"/>
+        <attribute name="goalHigh" value="" type="giString"/>
+        <attribute name="goalLow" value="" type="giString"/>
+        <attribute name="goalType" value="Greater Than" type="enGoalType"/>
+        <attribute name="poor" value="0%" type="giString"/>
+        <attribute name="poorHigh" value="0%" type="giString"/>
+        <attribute name="poorLow" value="0%" type="giString"/>
+        <attribute name="tailType" value="Both" type="enTailType"/>
+        <attribute name="weight" value="1" type="giString"/>
        </object>
       </collection>
-      <attribute name="suffix" type="giString" value=""/>
-      <attribute name="units" type="giString" value=""/>
-      <attribute name="valueChangeEnabled" type="giBoolean" value="1"/>
+      <attribute name="suffix" value="" type="giString"/>
+      <attribute name="units" value="" type="giString"/>
+      <attribute name="valueChangeEnabled" value="1" type="giBoolean"/>
      </object>
      <object name="outputs" type="saOutput" version="1">
-      <attribute name="addDefaultOP" type="giBoolean" value="1"/>
-      <attribute name="analyses" type="giString" value=""/>
-      <attribute name="changedAttrName" type="giString" value="expr"/>
-      <attribute name="copy_index" type="giInt" value="0"/>
-      <attribute name="description" type="giString" value=""/>
-      <attribute name="errorMessage" type="giString" value=""/>
-      <attribute name="expr" type="giString" value="sqrt(Ptotal)"/>
-      <attribute name="goalExpression" type="giString" value=" None "/>
-      <attribute name="hasSpec" type="giBoolean" value="0"/>
-      <attribute name="imageTitle" type="giString" value="%e %c %s %m %t"/>
+      <attribute name="addDefaultOP" value="1" type="giBoolean"/>
+      <attribute name="analyses" value="" type="giString"/>
+      <attribute name="changedAttrName" value="expr" type="giString"/>
+      <attribute name="copy_index" value="0" type="giInt"/>
+      <attribute name="description" value="" type="giString"/>
+      <attribute name="errorMessage" value="" type="giString"/>
+      <attribute name="expr" value="sqrt(Ptotal)" type="giString"/>
+      <attribute name="goalExpression" value=" &lt; 1.55n " type="giString"/>
+      <attribute name="hasSpec" value="1" type="giBoolean"/>
+      <attribute name="imageTitle" value="%e %c %s %m %t" type="giString"/>
       <collection name="mappedExpressions">
        <object name="mappedExpressions" type="wfExpression">
-        <attribute name="analysisName" type="giString" value=""/>
-        <attribute name="color" type="giString" value=""/>
-        <attribute name="enabled" type="giBoolean" value="1"/>
-        <attribute name="exprIndex" type="giInt" value="7"/>
-        <attribute name="expression" type="giString" value="sqrt(Ptotal)"/>
-        <attribute name="global" type="giBoolean" value="0"/>
-        <attribute name="isPlotted" type="giBoolean" value="0"/>
-        <attribute name="logicRadix" type="enLogicRadixType" value="auto"/>
-        <attribute name="modifier" type="giString" value=""/>
-        <attribute name="name" type="giString" value="NoiseRMS"/>
-        <attribute name="params" type="giString" value=""/>
-        <attribute name="plot" type="giBoolean" value="0"/>
-        <attribute name="plotType" type="enGraphType" value="auto"/>
-        <attribute name="resultType" type="giString" value="noise"/>
-        <attribute name="type" type="enOutputType" value="expression"/>
-        <attribute name="units" type="giString" value=""/>
+        <attribute name="analysisName" value="" type="giString"/>
+        <attribute name="color" value="" type="giString"/>
+        <attribute name="enabled" value="1" type="giBoolean"/>
+        <attribute name="exprIndex" value="7" type="giInt"/>
+        <attribute name="expression" value="sqrt(Ptotal)" type="giString"/>
+        <attribute name="global" value="0" type="giBoolean"/>
+        <attribute name="isPlotted" value="0" type="giBoolean"/>
+        <attribute name="logicRadix" value="auto" type="enLogicRadixType"/>
+        <attribute name="modifier" value="" type="giString"/>
+        <attribute name="name" value="NoiseRMS" type="giString"/>
+        <attribute name="params" value="" type="giString"/>
+        <attribute name="plot" value="0" type="giBoolean"/>
+        <attribute name="plotType" value="auto" type="enGraphType"/>
+        <attribute name="resultType" value="noise" type="giString"/>
+        <attribute name="type" value="expression" type="enOutputType"/>
+        <attribute name="units" value="" type="giString"/>
         <collection name="values"/>
        </object>
       </collection>
-      <attribute name="name" type="giString" value="NoiseRMS"/>
-      <attribute name="outputType" type="enOutputType" value="expression"/>
+      <attribute name="name" value="NoiseRMS" type="giString"/>
+      <attribute name="outputType" value="expression" type="enOutputType"/>
       <collection name="overrideSpecs"/>
-      <attribute name="plot" type="giBoolean" value="0"/>
-      <attribute name="plotType" type="enGraphType" value="auto"/>
-      <attribute name="precision" type="giInt" value="6"/>
-      <attribute name="probe" type="giString" value=""/>
-      <attribute name="resultsViewer" type="giBoolean" value="1"/>
-      <attribute name="save" type="giBoolean" value="1"/>
-      <attribute name="saveImage" type="giBoolean" value="0"/>
+      <attribute name="plot" value="0" type="giBoolean"/>
+      <attribute name="plotType" value="auto" type="enGraphType"/>
+      <attribute name="precision" value="6" type="giInt"/>
+      <attribute name="probe" value="" type="giString"/>
+      <attribute name="resultsViewer" value="1" type="giBoolean"/>
+      <attribute name="save" value="1" type="giBoolean"/>
+      <attribute name="saveImage" value="0" type="giBoolean"/>
       <collection name="specs">
        <object name="specs" type="saSpecification" version="1">
-        <attribute name="analysis" type="giString" value=""/>
-        <attribute name="cornerName" type="giString" value=""/>
-        <attribute name="enabled" type="giBoolean" value="1"/>
-        <attribute name="extGoalType" type="enGoalType" value="Greater Than"/>
-        <attribute name="goal" type="giString" value=""/>
-        <attribute name="goalExpression" type="giString" value=" None "/>
-        <attribute name="goalHigh" type="giString" value=""/>
-        <attribute name="goalLow" type="giString" value=""/>
-        <attribute name="goalType" type="enGoalType" value="Greater Than"/>
-        <attribute name="poor" type="giString" value="0%"/>
-        <attribute name="poorHigh" type="giString" value="0%"/>
-        <attribute name="poorLow" type="giString" value="0%"/>
-        <attribute name="tailType" type="enTailType" value="Both"/>
-        <attribute name="weight" type="giString" value="1"/>
+        <attribute name="analysis" value="" type="giString"/>
+        <attribute name="cornerName" value="" type="giString"/>
+        <attribute name="enabled" value="1" type="giBoolean"/>
+        <attribute name="extGoalType" value="Greater Than" type="enGoalType"/>
+        <attribute name="goal" value="1.55n" type="giString"/>
+        <attribute name="goalExpression" value=" &lt; 1.55n " type="giString"/>
+        <attribute name="goalHigh" value="" type="giString"/>
+        <attribute name="goalLow" value="" type="giString"/>
+        <attribute name="goalType" value="Less Than" type="enGoalType"/>
+        <attribute name="poor" value="0%" type="giString"/>
+        <attribute name="poorHigh" value="0%" type="giString"/>
+        <attribute name="poorLow" value="0%" type="giString"/>
+        <attribute name="tailType" value="Both" type="enTailType"/>
+        <attribute name="weight" value="1" type="giString"/>
        </object>
       </collection>
-      <attribute name="suffix" type="giString" value=""/>
-      <attribute name="units" type="giString" value=""/>
-      <attribute name="valueChangeEnabled" type="giBoolean" value="1"/>
+      <attribute name="suffix" value="" type="giString"/>
+      <attribute name="units" value="" type="giString"/>
+      <attribute name="valueChangeEnabled" value="1" type="giBoolean"/>
      </object>
     </collection>
     <collection name="qqCharts"/>
-    <attribute name="reductionString" type="giString" value=""/>
+    <attribute name="reductionString" value="" type="giString"/>
     <collection name="scatterCharts"/>
    </object>
   </collection>
-  <attribute name="plotMode" type="giString" value="replace"/>
+  <attribute name="plotMode" value="replace" type="giString"/>
  </object>
 </file-format>

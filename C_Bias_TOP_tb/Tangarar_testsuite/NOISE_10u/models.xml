@@ -1,24 +1,24 @@
 <?xml version="1.0"?>
-<!--Created by Custom Compiler (TM), build , on Mon Mar  2 19:07:46 2026-->
+<!--Created by Custom Compiler (TM), build , on Wed Mar  4 10:43:23 2026-->
 <file-format name="stateCategory" version="1.0">
  <object name="models" type="saModelSetup" version="1">
-  <attribute name="includeGlobal" type="giBoolean" value="1"/>
-  <attribute name="includePath" type="giString" value="/home/scastro/tsmc28/models/hspice/"/>
+  <attribute name="includeGlobal" value="1" type="giBoolean"/>
+  <attribute name="includePath" value="/home/scastro/tsmc28/models/hspice/" type="giString"/>
   <collection name="modelFiles">
    <object name="modelFiles" type="saModelFile" version="1">
-    <attribute name="enabled" type="giBoolean" value="1"/>
-    <attribute name="filename" type="giString" value="crn28ull_1d8_elk_v1d8_2p3_shrink0d9_embedded_usage.l"/>
-    <attribute name="section" type="giString" value="TTMacro_MOS_MOSCAP"/>
+    <attribute name="enabled" value="1" type="giBoolean"/>
+    <attribute name="filename" value="crn28ull_1d8_elk_v1d8_2p3_shrink0d9_embedded_usage.l" type="giString"/>
+    <attribute name="section" value="TTMacro_MOS_MOSCAP" type="giString"/>
    </object>
    <object name="modelFiles" type="saModelFile" version="1">
-    <attribute name="enabled" type="giBoolean" value="1"/>
-    <attribute name="filename" type="giString" value="crn28ull_1d8_elk_v1d8_2p3_shrink0d9_embedded_usage.l"/>
-    <attribute name="section" type="giString" value="TT_RES_BIP_DIO_DISRES"/>
+    <attribute name="enabled" value="1" type="giBoolean"/>
+    <attribute name="filename" value="crn28ull_1d8_elk_v1d8_2p3_shrink0d9_embedded_usage.l" type="giString"/>
+    <attribute name="section" value="TT_RES_BIP_DIO_DISRES" type="giString"/>
    </object>
    <object name="modelFiles" type="saModelFile" version="1">
-    <attribute name="enabled" type="giBoolean" value="0"/>
-    <attribute name="filename" type="giString" value="crn28ull_1d8_elk_v1d8_2p3_shrink0d9_embedded_usage.l"/>
-    <attribute name="section" type="giString" value=""/>
+    <attribute name="enabled" value="0" type="giBoolean"/>
+    <attribute name="filename" value="crn28ull_1d8_elk_v1d8_2p3_shrink0d9_embedded_usage.l" type="giString"/>
+    <attribute name="section" value="" type="giString"/>
    </object>
   </collection>
   <collection name="modelGroupDefs"/>

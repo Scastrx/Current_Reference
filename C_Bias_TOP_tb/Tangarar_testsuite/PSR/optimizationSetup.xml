@@ -1,27 +1,27 @@
 <?xml version="1.0"?>
-<!--Created by Custom Compiler (TM), build , on Mon Mar  2 19:07:46 2026-->
+<!--Created by Custom Compiler (TM), build , on Wed Mar  4 10:43:24 2026-->
 <file-format name="stateCategory" version="1.0">
  <object name="optimizationSetup" type="saOptimizationSetup" version="1">
   <collection name="csoAreas"/>
   <collection name="csoObjectives"/>
   <object name="csoOptions" type="saDpoOptions" version="1">
-   <attribute name="csoJobClass" type="giString" value="simulation"/>
-   <attribute name="csoRunName" type="giString" value="opt_history_1"/>
-   <attribute name="designMeetSpecs" type="giString" value="1"/>
-   <attribute name="enableCornerReductionFlag" type="giBoolean" value="0"/>
-   <attribute name="enableInitialValueFlag" type="giBoolean" value="0"/>
-   <attribute name="maxIterations" type="giString" value=""/>
-   <attribute name="maxRunTime" type="giString" value=""/>
-   <attribute name="maximumTimesThanAverage" type="giString" value="50"/>
-   <attribute name="maximumWallTime" type="giString" value=""/>
-   <attribute name="noImprovementIterations" type="giString" value="100"/>
-   <attribute name="optimizerEngine" type="giString" value="Global"/>
-   <attribute name="removeInvalidParamsFlag" type="giBoolean" value="0"/>
-   <attribute name="rerunAbnormalSampleFlag" type="giBoolean" value="1"/>
-   <attribute name="rerunAbnormalSimFlag" type="giBoolean" value="1"/>
-   <attribute name="topBestDesigns" type="giString" value="10"/>
+   <attribute name="csoJobClass" value="simulation" type="giString"/>
+   <attribute name="csoRunName" value="opt_history_1" type="giString"/>
+   <attribute name="designMeetSpecs" value="1" type="giString"/>
+   <attribute name="enableCornerReductionFlag" value="0" type="giBoolean"/>
+   <attribute name="enableInitialValueFlag" value="0" type="giBoolean"/>
+   <attribute name="maxIterations" value="" type="giString"/>
+   <attribute name="maxRunTime" value="" type="giString"/>
+   <attribute name="maximumTimesThanAverage" value="50" type="giString"/>
+   <attribute name="maximumWallTime" value="" type="giString"/>
+   <attribute name="noImprovementIterations" value="100" type="giString"/>
+   <attribute name="optimizerEngine" value="Global" type="giString"/>
+   <attribute name="removeInvalidParamsFlag" value="0" type="giBoolean"/>
+   <attribute name="rerunAbnormalSampleFlag" value="1" type="giBoolean"/>
+   <attribute name="rerunAbnormalSimFlag" value="1" type="giBoolean"/>
+   <attribute name="topBestDesigns" value="10" type="giString"/>
   </object>
   <collection name="csoParams"/>
-  <attribute name="enabled" type="giBoolean" value="1"/>
+  <attribute name="enabled" value="1" type="giBoolean"/>
  </object>
 </file-format>

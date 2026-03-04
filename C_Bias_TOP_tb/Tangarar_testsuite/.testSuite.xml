@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
-<!--Created by Custom Compiler (TM), build , on Mon Mar  2 19:07:45 2026-->
+<!--Created by Custom Compiler (TM), build , on Wed Mar  4 10:43:23 2026-->
 <file-format name="testSuiteData" version="1.0">
  <comment></comment>
  <tsCategory>SAE_test_suite</tsCategory>
  <version version="1.0"/>
- <attribute name="supportsGlobalScope" type="giBoolean" value="1"/>
+ <attribute name="supportsGlobalScope" value="1" type="giBoolean"/>
 </file-format>
