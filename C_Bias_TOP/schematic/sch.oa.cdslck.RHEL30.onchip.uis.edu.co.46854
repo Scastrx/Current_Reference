@@ -6,11 +6,11 @@
 LockStakeVersion               1.1
 LoginName                      jestevez
 HostName                       onchip.uis.edu.co
-ProcessIdentifier              9821
-ProcessCreationTime_UTC        1772494944
-ProcessCreationTime_Readable   Mon 02 Mar 2026 06:42:24 PM -05 -05
+ProcessIdentifier              46854
+ProcessCreationTime_UTC        1772654092
+ProcessCreationTime_Readable   Wed 04 Mar 2026 02:54:52 PM -05 -05
 AppIdentifier                  OA File System Design Manager
 OSType                         unix
 ReasonForPlacingEditLock       OpenAccess edit lock
 FilePathUsedToEditLock         /home/jestevez/tsmc28/Current_Reference/C_Bias_TOP/schematic/sch.oa.cdslck
-TimeEditLocked                 Mon 02 Mar 2026 07:38:05 PM -05 -05
+TimeEditLocked                 Wed 04 Mar 2026 02:56:56 PM -05 -05
