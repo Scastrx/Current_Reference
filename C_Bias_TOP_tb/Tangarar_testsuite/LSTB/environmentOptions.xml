@@ -1,20 +1,20 @@
 <?xml version="1.0"?>
-<!--Created by Custom Compiler (TM), build , on Wed Mar  4 11:44:55 2026-->
+<!--Created by Custom Compiler (TM), build , on Wed Mar  4 19:30:33 2026-->
 <file-format name="stateCategory" version="1.0">
- <object name="environmentOptions" type="saEnvironmentOptions" version="1">
-  <attribute name="accuracyLevel" value="Default" type="giString"/>
-  <attribute name="auto" value="0" type="giBoolean"/>
-  <attribute name="commandLineOptions" value="" type="giString"/>
-  <attribute name="enableGPU" value="0" type="giInt"/>
-  <attribute name="enableParallelSim" value="0" type="giBoolean"/>
-  <attribute name="ignoreParasitics" value="0" type="giBoolean"/>
-  <attribute name="includePath" value="" type="giString"/>
-  <attribute name="netlistLanguage" value="HSPICE" type="giString"/>
-  <attribute name="numGPUProcesses" value="1" type="giInt"/>
-  <attribute name="numProcesses" value="1" type="giInt"/>
-  <attribute name="outputDataFormat" value="wdf" type="giString"/>
-  <attribute name="stopViewList" value="hspice hspiceD" type="giString"/>
-  <attribute name="switchViewList" value="hspice hspiceD schematic spice veriloga" type="giString"/>
-  <attribute name="use64Bit" value="1" type="giBoolean"/>
+ <object type="saEnvironmentOptions" name="environmentOptions" version="1">
+  <attribute value="Default" type="giString" name="accuracyLevel"/>
+  <attribute value="0" type="giBoolean" name="auto"/>
+  <attribute value="" type="giString" name="commandLineOptions"/>
+  <attribute value="0" type="giInt" name="enableGPU"/>
+  <attribute value="0" type="giBoolean" name="enableParallelSim"/>
+  <attribute value="0" type="giBoolean" name="ignoreParasitics"/>
+  <attribute value="" type="giString" name="includePath"/>
+  <attribute value="HSPICE" type="giString" name="netlistLanguage"/>
+  <attribute value="1" type="giInt" name="numGPUProcesses"/>
+  <attribute value="1" type="giInt" name="numProcesses"/>
+  <attribute value="wdf" type="giString" name="outputDataFormat"/>
+  <attribute value="hspice hspiceD" type="giString" name="stopViewList"/>
+  <attribute value="hspice hspiceD schematic spice veriloga" type="giString" name="switchViewList"/>
+  <attribute value="1" type="giBoolean" name="use64Bit"/>
  </object>
 </file-format>

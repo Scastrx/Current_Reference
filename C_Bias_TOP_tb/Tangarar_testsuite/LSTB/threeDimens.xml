@@ -1,36 +1,36 @@
 <?xml version="1.0"?>
-<!--Created by Custom Compiler (TM), build , on Wed Mar  4 11:44:55 2026-->
+<!--Created by Custom Compiler (TM), build , on Wed Mar  4 19:30:33 2026-->
 <file-format name="stateCategory" version="1.0">
- <object name="threeDimens" type="saThreeDimensSetup" version="1">
+ <object type="saThreeDimensSetup" name="threeDimens" version="1">
   <collection name="saThreeDimensCellRows"/>
-  <object name="saThreeDimensInstances" type="saThreeDimensSetupIntanceNode" version="1">
-   <attribute name="instanceName" value="root" type="giString"/>
-   <attribute name="moduleType" value="" type="giString"/>
-   <object name="sa3DicModel" type="saThreeDimensTableRow" version="1">
-    <attribute name="enabled" value="1" type="giBoolean"/>
-    <attribute name="geoshrink" value="" type="giString"/>
-    <attribute name="moduleType" value="" type="giString"/>
-    <attribute name="name" value="" type="giString"/>
-    <attribute name="parameter" value="" type="giString"/>
-    <attribute name="processLib" value="" type="giString"/>
-    <object name="saModelGroup" type="saModelGroup" version="1">
-     <attribute name="enabled" value="1" type="giBoolean"/>
-     <attribute name="name" value="" type="giString"/>
-     <attribute name="nominalSection" value="" type="giString"/>
+  <object type="saThreeDimensSetupIntanceNode" name="saThreeDimensInstances" version="1">
+   <attribute value="root" type="giString" name="instanceName"/>
+   <attribute value="" type="giString" name="moduleType"/>
+   <object type="saThreeDimensTableRow" name="sa3DicModel" version="1">
+    <attribute value="1" type="giBoolean" name="enabled"/>
+    <attribute value="" type="giString" name="geoshrink"/>
+    <attribute value="" type="giString" name="moduleType"/>
+    <attribute value="" type="giString" name="name"/>
+    <attribute value="" type="giString" name="parameter"/>
+    <attribute value="" type="giString" name="processLib"/>
+    <object type="saModelGroup" name="saModelGroup" version="1">
+     <attribute value="1" type="giBoolean" name="enabled"/>
+     <attribute value="" type="giString" name="name"/>
+     <attribute value="" type="giString" name="nominalSection"/>
     </object>
-    <object name="saModelGroupDef" type="saModelGroupDef" version="1">
+    <object type="saModelGroupDef" name="saModelGroupDef" version="1">
      <collection name="files"/>
-     <attribute name="includePath" value="" type="giString"/>
-     <attribute name="name" value="" type="giString"/>
-     <attribute name="readOnly" value="0" type="giBoolean"/>
+     <attribute value="" type="giString" name="includePath"/>
+     <attribute value="" type="giString" name="name"/>
+     <attribute value="0" type="giBoolean" name="readOnly"/>
      <collection name="sections"/>
     </object>
-    <attribute name="scale" value="" type="giString"/>
-    <attribute name="temperature" value="" type="giString"/>
-    <attribute name="tnom" value="" type="giString"/>
+    <attribute value="" type="giString" name="scale"/>
+    <attribute value="" type="giString" name="temperature"/>
+    <attribute value="" type="giString" name="tnom"/>
    </object>
    <collection name="saThreeDimensSubNodes"/>
-   <attribute name="sonHasVar" value="0" type="giBoolean"/>
+   <attribute value="0" type="giBoolean" name="sonHasVar"/>
   </object>
   <collection name="saThreeDimensTableRows"/>
  </object>
