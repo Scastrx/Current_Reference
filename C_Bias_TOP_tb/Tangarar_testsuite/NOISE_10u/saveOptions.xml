@@ -1,30 +1,30 @@
 <?xml version="1.0"?>
-<!--Created by Custom Compiler (TM), build , on Mon Mar  2 19:07:46 2026-->
+<!--Created by Custom Compiler (TM), build , on Wed Mar  4 19:30:32 2026-->
 <file-format name="stateCategory" version="1.0">
- <object name="saveOptions" type="saSaveOptions" version="1">
-  <attribute name="emTStart" type="giString" value=""/>
-  <attribute name="emTStop" type="giString" value=""/>
-  <attribute name="enableEM" type="giBoolean" value="0"/>
-  <attribute name="enableVDRC" type="giBoolean" value="0"/>
-  <attribute name="firstPinOnly" type="giBoolean" value="1"/>
-  <attribute name="power" type="giString" value="selected"/>
-  <attribute name="powerLevel" type="giString" value="1"/>
-  <attribute name="save" type="giString" value="level"/>
-  <attribute name="saveBy" type="giString" value="mixed"/>
-  <attribute name="saveLevel" type="giString" value="1"/>
-  <attribute name="subcktCurrents" type="giString" value="selected"/>
-  <attribute name="subcktCurrentsLevel" type="giString" value="1"/>
-  <attribute name="subcktPower" type="giString" value="selected"/>
-  <attribute name="subcktPowerLevel" type="giString" value="1"/>
-  <attribute name="subcktVoltages" type="giString" value="selected"/>
-  <attribute name="subcktVoltagesLevel" type="giString" value="1"/>
-  <attribute name="terminalCurrents" type="giString" value="level"/>
-  <attribute name="terminalCurrentsLevel" type="giString" value="1"/>
-  <attribute name="terminalVoltages" type="giString" value="selected"/>
-  <attribute name="terminalVoltagesLevel" type="giString" value="1"/>
-  <attribute name="totalPower" type="giBoolean" value="0"/>
-  <attribute name="vdrcTStart" type="giString" value=""/>
-  <attribute name="vdrcTStop" type="giString" value=""/>
-  <attribute name="verilogA" type="giBoolean" value="0"/>
+ <object type="saSaveOptions" name="saveOptions" version="1">
+  <attribute value="" type="giString" name="emTStart"/>
+  <attribute value="" type="giString" name="emTStop"/>
+  <attribute value="0" type="giBoolean" name="enableEM"/>
+  <attribute value="0" type="giBoolean" name="enableVDRC"/>
+  <attribute value="1" type="giBoolean" name="firstPinOnly"/>
+  <attribute value="selected" type="giString" name="power"/>
+  <attribute value="1" type="giString" name="powerLevel"/>
+  <attribute value="level" type="giString" name="save"/>
+  <attribute value="mixed" type="giString" name="saveBy"/>
+  <attribute value="1" type="giString" name="saveLevel"/>
+  <attribute value="selected" type="giString" name="subcktCurrents"/>
+  <attribute value="1" type="giString" name="subcktCurrentsLevel"/>
+  <attribute value="selected" type="giString" name="subcktPower"/>
+  <attribute value="1" type="giString" name="subcktPowerLevel"/>
+  <attribute value="selected" type="giString" name="subcktVoltages"/>
+  <attribute value="1" type="giString" name="subcktVoltagesLevel"/>
+  <attribute value="level" type="giString" name="terminalCurrents"/>
+  <attribute value="1" type="giString" name="terminalCurrentsLevel"/>
+  <attribute value="selected" type="giString" name="terminalVoltages"/>
+  <attribute value="1" type="giString" name="terminalVoltagesLevel"/>
+  <attribute value="0" type="giBoolean" name="totalPower"/>
+  <attribute value="" type="giString" name="vdrcTStart"/>
+  <attribute value="" type="giString" name="vdrcTStop"/>
+  <attribute value="0" type="giBoolean" name="verilogA"/>
  </object>
 </file-format>

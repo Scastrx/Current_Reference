@@ -1,18 +1,18 @@
 <?xml version="1.0"?>
-<!--Created by Custom Compiler (TM), build , on Mon Mar  2 19:07:46 2026-->
+<!--Created by Custom Compiler (TM), build , on Wed Mar  4 19:30:33 2026-->
 <file-format name="stateCategory" version="1.0">
- <object name="stimulusSets" type="saStimulusSets" version="1">
-  <attribute name="activeSet" type="giString" value="default"/>
+ <object type="saStimulusSets" name="stimulusSets" version="1">
+  <attribute value="default" type="giString" name="activeSet"/>
   <collection name="allGroupDefs"/>
   <collection name="allGroups"/>
-  <attribute name="allSets" type="giStringList" value=""/>
-  <attribute name="enabled" type="giBoolean" value="1"/>
-  <attribute name="includeGlobal" type="giBoolean" value="0"/>
-  <attribute name="lastModificationTime" type="giInt" value="0"/>
-  <object name="stimulusPorts" type="saStimulusPorts" version="1">
-   <attribute name="activeSet" type="giString" value="default"/>
+  <attribute value="" type="giStringList" name="allSets"/>
+  <attribute value="1" type="giBoolean" name="enabled"/>
+  <attribute value="0" type="giBoolean" name="includeGlobal"/>
+  <attribute value="0" type="giInt" name="lastModificationTime"/>
+  <object type="saStimulusPorts" name="stimulusPorts" version="1">
+   <attribute value="default" type="giString" name="activeSet"/>
    <collection name="allPortSets"/>
-   <attribute name="enabled" type="giBoolean" value="1"/>
+   <attribute value="1" type="giBoolean" name="enabled"/>
   </object>
  </object>
 </file-format>

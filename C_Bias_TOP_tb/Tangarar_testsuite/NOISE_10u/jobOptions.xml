@@ -1,33 +1,33 @@
 <?xml version="1.0"?>
-<!--Created by Custom Compiler (TM), build , on Mon Mar  2 19:07:46 2026-->
+<!--Created by Custom Compiler (TM), build , on Wed Mar  4 19:30:32 2026-->
 <file-format name="stateCategory" version="1.0">
- <object name="jobOptions" type="saJobOptions" version="1">
-  <attribute name="dynConcurrent" type="giString" value=""/>
-  <attribute name="dynExtraOptions" type="giString" value="default"/>
-  <attribute name="dynJcName" type="giString" value=""/>
-  <attribute name="dynMeasConcurrent" type="giString" value=""/>
-  <attribute name="dynMeasExtraOptions" type="giString" value="default"/>
-  <attribute name="dynMeasJcName" type="giString" value=""/>
-  <attribute name="dynMeasQueueList" type="giString" value=""/>
-  <attribute name="dynQueueList" type="giString" value=""/>
-  <attribute name="measurementsCalculationMode" type="giString" value="Background"/>
-  <attribute name="measurementsCommandPrefix" type="giString" value=""/>
-  <attribute name="measurementsDisplayName" type="giString" value=""/>
-  <attribute name="measurementsDisplayType" type="saDisplayEnum" value="Current"/>
-  <attribute name="measurementsDisplayWrapperScript" type="giString" value=""/>
-  <attribute name="measurementsGridOptions" type="giString" value=""/>
-  <attribute name="measurementsJobClass" type="giString" value="SAEShell"/>
-  <attribute name="netlistingGridOptions" type="giString" value=""/>
-  <attribute name="netlistingJobClass" type="giString" value="Netlisting"/>
-  <attribute name="noCopyScratchResults" type="giBoolean" value="0"/>
-  <attribute name="remoteSimDir" type="giString" value="~/simulation"/>
-  <attribute name="scratchDir" type="giString" value="/SCRATCH"/>
-  <attribute name="scratchNetworkDir" type="giString" value=""/>
-  <attribute name="simulationCommandPrefix" type="giString" value=""/>
-  <attribute name="simulationGridOptions" type="giString" value=""/>
-  <attribute name="simulationJobClass" type="giString" value="Simulation"/>
-  <attribute name="useScratchDir" type="giBoolean" value="0"/>
-  <attribute name="usedGlobalResource" type="giBoolean" value="1"/>
-  <attribute name="usedSimResource" type="giBoolean" value="1"/>
+ <object type="saJobOptions" name="jobOptions" version="1">
+  <attribute value="" type="giString" name="dynConcurrent"/>
+  <attribute value="default" type="giString" name="dynExtraOptions"/>
+  <attribute value="" type="giString" name="dynJcName"/>
+  <attribute value="" type="giString" name="dynMeasConcurrent"/>
+  <attribute value="default" type="giString" name="dynMeasExtraOptions"/>
+  <attribute value="" type="giString" name="dynMeasJcName"/>
+  <attribute value="" type="giString" name="dynMeasQueueList"/>
+  <attribute value="" type="giString" name="dynQueueList"/>
+  <attribute value="Background" type="giString" name="measurementsCalculationMode"/>
+  <attribute value="" type="giString" name="measurementsCommandPrefix"/>
+  <attribute value="" type="giString" name="measurementsDisplayName"/>
+  <attribute value="Current" type="saDisplayEnum" name="measurementsDisplayType"/>
+  <attribute value="" type="giString" name="measurementsDisplayWrapperScript"/>
+  <attribute value="" type="giString" name="measurementsGridOptions"/>
+  <attribute value="SAEShell" type="giString" name="measurementsJobClass"/>
+  <attribute value="" type="giString" name="netlistingGridOptions"/>
+  <attribute value="Netlisting" type="giString" name="netlistingJobClass"/>
+  <attribute value="0" type="giBoolean" name="noCopyScratchResults"/>
+  <attribute value="~/simulation" type="giString" name="remoteSimDir"/>
+  <attribute value="/SCRATCH" type="giString" name="scratchDir"/>
+  <attribute value="" type="giString" name="scratchNetworkDir"/>
+  <attribute value="" type="giString" name="simulationCommandPrefix"/>
+  <attribute value="" type="giString" name="simulationGridOptions"/>
+  <attribute value="Simulation" type="giString" name="simulationJobClass"/>
+  <attribute value="0" type="giBoolean" name="useScratchDir"/>
+  <attribute value="1" type="giBoolean" name="usedGlobalResource"/>
+  <attribute value="1" type="giBoolean" name="usedSimResource"/>
  </object>
 </file-format>
