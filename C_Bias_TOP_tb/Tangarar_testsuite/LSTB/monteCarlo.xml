@@ -1,0 +1,64 @@
+<?xml version="1.0"?>
+<!--Created by Custom Compiler (TM), build , on Sat Mar  7 09:23:30 2026-->
+<file-format version="1.0" name="stateCategory">
+ <collection name="monteCarlo">
+  <object version="1" type="saMonteCarlo" name="monteCarlo">
+   <attribute value="0" type="giBoolean" name="autoValidation"/>
+   <attribute value="1" type="giBoolean" name="criticalSweepExt"/>
+   <attribute value="0" type="giBoolean" name="criticalSweepWaveform"/>
+   <attribute value="1" type="giBoolean" name="detailed"/>
+   <attribute value="1" type="giBoolean" name="doNominal"/>
+   <attribute value="0" type="giBoolean" name="enableFastSensitivity"/>
+   <attribute value="1" type="giBoolean" name="enabled"/>
+   <attribute value="" type="giString" name="enabledTestbenches"/>
+   <attribute value="0" type="giBoolean" name="fullSensTable"/>
+   <attribute value="" type="giString" name="goldenRefFile"/>
+   <attribute value="3.5" type="giString" name="hsmcChipLevelSigma"/>
+   <attribute value="1" type="giString" name="hsmcComponentCount"/>
+   <attribute value="67759" type="giString" name="hsmcNum"/>
+   <attribute value="4.0" type="giString" name="hsmcStatUncertainty"/>
+   <attribute value="Uncertainty" type="giString" name="hsmcUseNumber"/>
+   <attribute value="" type="giString" name="hyperParameters"/>
+   <attribute value="Sample Number" type="giString" name="inputMode"/>
+   <attribute value="" type="giString" name="iterList"/>
+   <attribute value="10" type="giString" name="iterationsPerRun"/>
+   <attribute value="1" type="giString" name="lhsReplicates"/>
+   <attribute value="" type="giString" name="lhsSampleSize"/>
+   <attribute value="Number of runs" type="enMultiRunType" name="multiRunType"/>
+   <attribute value="1" type="giBoolean" name="multiRuns"/>
+   <attribute value="1" type="giBoolean" name="nominal"/>
+   <attribute value="10" type="giString" name="numIter"/>
+   <attribute value="1" type="giString" name="ofatIntervals"/>
+   <attribute value="0" type="giBoolean" name="ofatOneSided"/>
+   <attribute value="0.5" type="giString" name="ofatOneSidedValue"/>
+   <attribute value="4.0" type="giString" name="pyeStatUncertainty"/>
+   <attribute value="1" type="giBoolean" name="qqPlot"/>
+   <attribute value="Sobol" type="giString" name="samplingMethod"/>
+   <attribute value="1" type="giBoolean" name="saveSignalData"/>
+   <attribute value="1" type="giString" name="seed"/>
+   <attribute value="1" type="giBoolean" name="sensitivity"/>
+   <attribute value="1" type="giBoolean" name="sensitivityDetailedFile"/>
+   <attribute value="0" type="giBoolean" name="sensitivityHideIRVLevel"/>
+   <attribute value="0" type="giBoolean" name="sensitivityOutputCSV"/>
+   <attribute value="Pearson" type="giString" name="sensitivityScreeningMethod"/>
+   <attribute value="0" type="giBoolean" name="shareGlobalSetup"/>
+   <attribute value="2.5" type="giString" name="sigChipLevelSigma"/>
+   <attribute value="1" type="giString" name="sigComponentCount"/>
+   <attribute value="618" type="giString" name="sigNum"/>
+   <attribute value="1" type="giString" name="sigStart"/>
+   <attribute value="16.0" type="giString" name="sigStatUncertainty"/>
+   <attribute value="0" type="giBoolean" name="sigUseAmp"/>
+   <attribute value="1" type="giString" name="sigmaScale"/>
+   <attribute value="1" type="giString" name="startIter"/>
+   <attribute value="5" type="giString" name="totalRuns"/>
+   <attribute value="0" type="giBoolean" name="useIterList"/>
+   <attribute value="0" type="giBoolean" name="useRandomSeed"/>
+   <attribute value="0" type="giBoolean" name="useSigmaScaling"/>
+   <attribute value="Include" type="giString" name="variationIncludeOrExclude"/>
+   <attribute value="" type="giString" name="variationInstanceOrCellList"/>
+   <attribute value="Instances" type="giString" name="variationObjectType"/>
+   <attribute value="" type="giString" name="variationScopes"/>
+   <attribute value="Local" type="giString" name="variations"/>
+  </object>
+ </collection>
+</file-format>
