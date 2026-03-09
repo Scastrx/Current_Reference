@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<!--Created by Custom Compiler (TM), build , on Sat Mar  7 09:23:30 2026-->
+<!--Created by Custom Compiler (TM), build , on Mon Mar  9 17:45:45 2026-->
 <file-format version="1.0" name="stateCategory">
  <object version="1" type="saOutputs" name="outputs">
   <collection name="customPlotModes">
@@ -43,6 +43,25 @@
         <attribute value="0" type="giBoolean" name="plot"/>
         <attribute value="auto" type="enGraphType" name="plotType"/>
         <attribute value="acMeasure" type="giString" name="resultType"/>
+        <attribute value="expression" type="enOutputType" name="type"/>
+        <attribute value="" type="giString" name="units"/>
+        <collection name="values"/>
+       </object>
+       <object type="wfExpression" name="mappedExpressions">
+        <attribute value="" type="giString" name="analysisName"/>
+        <attribute value="" type="giString" name="color"/>
+        <attribute value="1" type="giBoolean" name="enabled"/>
+        <attribute value="2" type="giInt" name="exprIndex"/>
+        <attribute value="meas(gain_margin)" type="giString" name="expression"/>
+        <attribute value="0" type="giBoolean" name="global"/>
+        <attribute value="0" type="giBoolean" name="isPlotted"/>
+        <attribute value="auto" type="enLogicRadixType" name="logicRadix"/>
+        <attribute value="" type="giString" name="modifier"/>
+        <attribute value="GainMargin" type="giString" name="name"/>
+        <attribute value="" type="giString" name="params"/>
+        <attribute value="0" type="giBoolean" name="plot"/>
+        <attribute value="auto" type="enGraphType" name="plotType"/>
+        <attribute value="" type="giString" name="resultType"/>
         <attribute value="expression" type="enOutputType" name="type"/>
         <attribute value="" type="giString" name="units"/>
         <collection name="values"/>
@@ -453,6 +472,25 @@
         <attribute value="" type="giString" name="units"/>
         <collection name="values"/>
        </object>
+       <object type="wfExpression" name="mappedExpressions">
+        <attribute value="" type="giString" name="analysisName"/>
+        <attribute value="" type="giString" name="color"/>
+        <attribute value="1" type="giBoolean" name="enabled"/>
+        <attribute value="3" type="giInt" name="exprIndex"/>
+        <attribute value="meas(gain_margin_freq)" type="giString" name="expression"/>
+        <attribute value="0" type="giBoolean" name="global"/>
+        <attribute value="0" type="giBoolean" name="isPlotted"/>
+        <attribute value="auto" type="enLogicRadixType" name="logicRadix"/>
+        <attribute value="" type="giString" name="modifier"/>
+        <attribute value="gain_margin_freq" type="giString" name="name"/>
+        <attribute value="" type="giString" name="params"/>
+        <attribute value="0" type="giBoolean" name="plot"/>
+        <attribute value="auto" type="enGraphType" name="plotType"/>
+        <attribute value="" type="giString" name="resultType"/>
+        <attribute value="expression" type="enOutputType" name="type"/>
+        <attribute value="" type="giString" name="units"/>
+        <collection name="values"/>
+       </object>
       </collection>
       <attribute value="gain_margin_freq" type="giString" name="name"/>
       <attribute value="expression" type="enOutputType" name="outputType"/>
@@ -513,6 +551,25 @@
         <attribute value="0" type="giBoolean" name="plot"/>
         <attribute value="auto" type="enGraphType" name="plotType"/>
         <attribute value="acMeasure" type="giString" name="resultType"/>
+        <attribute value="expression" type="enOutputType" name="type"/>
+        <attribute value="" type="giString" name="units"/>
+        <collection name="values"/>
+       </object>
+       <object type="wfExpression" name="mappedExpressions">
+        <attribute value="" type="giString" name="analysisName"/>
+        <attribute value="" type="giString" name="color"/>
+        <attribute value="1" type="giBoolean" name="enabled"/>
+        <attribute value="4" type="giInt" name="exprIndex"/>
+        <attribute value="meas(phase_margin)" type="giString" name="expression"/>
+        <attribute value="0" type="giBoolean" name="global"/>
+        <attribute value="0" type="giBoolean" name="isPlotted"/>
+        <attribute value="auto" type="enLogicRadixType" name="logicRadix"/>
+        <attribute value="" type="giString" name="modifier"/>
+        <attribute value="PhaseMargin" type="giString" name="name"/>
+        <attribute value="" type="giString" name="params"/>
+        <attribute value="0" type="giBoolean" name="plot"/>
+        <attribute value="auto" type="enGraphType" name="plotType"/>
+        <attribute value="" type="giString" name="resultType"/>
         <attribute value="expression" type="enOutputType" name="type"/>
         <attribute value="" type="giString" name="units"/>
         <collection name="values"/>
@@ -923,6 +980,25 @@
         <attribute value="" type="giString" name="units"/>
         <collection name="values"/>
        </object>
+       <object type="wfExpression" name="mappedExpressions">
+        <attribute value="" type="giString" name="analysisName"/>
+        <attribute value="" type="giString" name="color"/>
+        <attribute value="1" type="giBoolean" name="enabled"/>
+        <attribute value="5" type="giInt" name="exprIndex"/>
+        <attribute value="meas(phase_margin_freq)" type="giString" name="expression"/>
+        <attribute value="0" type="giBoolean" name="global"/>
+        <attribute value="0" type="giBoolean" name="isPlotted"/>
+        <attribute value="auto" type="enLogicRadixType" name="logicRadix"/>
+        <attribute value="" type="giString" name="modifier"/>
+        <attribute value="phase_margin_freq" type="giString" name="name"/>
+        <attribute value="" type="giString" name="params"/>
+        <attribute value="0" type="giBoolean" name="plot"/>
+        <attribute value="auto" type="enGraphType" name="plotType"/>
+        <attribute value="" type="giString" name="resultType"/>
+        <attribute value="expression" type="enOutputType" name="type"/>
+        <attribute value="" type="giString" name="units"/>
+        <collection name="values"/>
+       </object>
       </collection>
       <attribute value="phase_margin_freq" type="giString" name="name"/>
       <attribute value="expression" type="enOutputType" name="outputType"/>
@@ -1158,6 +1234,25 @@
         <attribute value="" type="giString" name="units"/>
         <collection name="values"/>
        </object>
+       <object type="wfExpression" name="mappedExpressions">
+        <attribute value="" type="giString" name="analysisName"/>
+        <attribute value="" type="giString" name="color"/>
+        <attribute value="1" type="giBoolean" name="enabled"/>
+        <attribute value="6" type="giInt" name="exprIndex"/>
+        <attribute value="meas(unity_gain_freq)" type="giString" name="expression"/>
+        <attribute value="0" type="giBoolean" name="global"/>
+        <attribute value="0" type="giBoolean" name="isPlotted"/>
+        <attribute value="auto" type="enLogicRadixType" name="logicRadix"/>
+        <attribute value="" type="giString" name="modifier"/>
+        <attribute value="UGB" type="giString" name="name"/>
+        <attribute value="" type="giString" name="params"/>
+        <attribute value="0" type="giBoolean" name="plot"/>
+        <attribute value="auto" type="enGraphType" name="plotType"/>
+        <attribute value="" type="giString" name="resultType"/>
+        <attribute value="expression" type="enOutputType" name="type"/>
+        <attribute value="" type="giString" name="units"/>
+        <collection name="values"/>
+       </object>
       </collection>
       <attribute value="UGB" type="giString" name="name"/>
       <attribute value="expression" type="enOutputType" name="outputType"/>
@@ -1218,6 +1313,25 @@
         <attribute value="0" type="giBoolean" name="plot"/>
         <attribute value="auto" type="enGraphType" name="plotType"/>
         <attribute value="acMeasure" type="giString" name="resultType"/>
+        <attribute value="expression" type="enOutputType" name="type"/>
+        <attribute value="" type="giString" name="units"/>
+        <collection name="values"/>
+       </object>
+       <object type="wfExpression" name="mappedExpressions">
+        <attribute value="" type="giString" name="analysisName"/>
+        <attribute value="" type="giString" name="color"/>
+        <attribute value="1" type="giBoolean" name="enabled"/>
+        <attribute value="7" type="giInt" name="exprIndex"/>
+        <attribute value="meas(loop_gain_minifreq)" type="giString" name="expression"/>
+        <attribute value="0" type="giBoolean" name="global"/>
+        <attribute value="0" type="giBoolean" name="isPlotted"/>
+        <attribute value="auto" type="enLogicRadixType" name="logicRadix"/>
+        <attribute value="" type="giString" name="modifier"/>
+        <attribute value="Ao" type="giString" name="name"/>
+        <attribute value="" type="giString" name="params"/>
+        <attribute value="0" type="giBoolean" name="plot"/>
+        <attribute value="auto" type="enGraphType" name="plotType"/>
+        <attribute value="" type="giString" name="resultType"/>
         <attribute value="expression" type="enOutputType" name="type"/>
         <attribute value="" type="giString" name="units"/>
         <collection name="values"/>

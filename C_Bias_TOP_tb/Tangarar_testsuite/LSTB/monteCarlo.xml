@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<!--Created by Custom Compiler (TM), build , on Sat Mar  7 09:23:30 2026-->
+<!--Created by Custom Compiler (TM), build , on Mon Mar  9 17:45:45 2026-->
 <file-format version="1.0" name="stateCategory">
  <collection name="monteCarlo">
   <object version="1" type="saMonteCarlo" name="monteCarlo">
@@ -9,8 +9,7 @@
    <attribute value="1" type="giBoolean" name="detailed"/>
    <attribute value="1" type="giBoolean" name="doNominal"/>
    <attribute value="0" type="giBoolean" name="enableFastSensitivity"/>
-   <attribute value="1" type="giBoolean" name="enabled"/>
-   <attribute value="" type="giString" name="enabledTestbenches"/>
+   <attribute value="0" type="giBoolean" name="enabled"/>
    <attribute value="0" type="giBoolean" name="fullSensTable"/>
    <attribute value="" type="giString" name="goldenRefFile"/>
    <attribute value="3.5" type="giString" name="hsmcChipLevelSigma"/>
@@ -27,7 +26,7 @@
    <attribute value="Number of runs" type="enMultiRunType" name="multiRunType"/>
    <attribute value="1" type="giBoolean" name="multiRuns"/>
    <attribute value="1" type="giBoolean" name="nominal"/>
-   <attribute value="10" type="giString" name="numIter"/>
+   <attribute value="200" type="giString" name="numIter"/>
    <attribute value="1" type="giString" name="ofatIntervals"/>
    <attribute value="0" type="giBoolean" name="ofatOneSided"/>
    <attribute value="0.5" type="giString" name="ofatOneSidedValue"/>
@@ -41,7 +40,6 @@
    <attribute value="0" type="giBoolean" name="sensitivityHideIRVLevel"/>
    <attribute value="0" type="giBoolean" name="sensitivityOutputCSV"/>
    <attribute value="Pearson" type="giString" name="sensitivityScreeningMethod"/>
-   <attribute value="0" type="giBoolean" name="shareGlobalSetup"/>
    <attribute value="2.5" type="giString" name="sigChipLevelSigma"/>
    <attribute value="1" type="giString" name="sigComponentCount"/>
    <attribute value="618" type="giString" name="sigNum"/>
@@ -57,7 +55,6 @@
    <attribute value="Include" type="giString" name="variationIncludeOrExclude"/>
    <attribute value="" type="giString" name="variationInstanceOrCellList"/>
    <attribute value="Instances" type="giString" name="variationObjectType"/>
-   <attribute value="" type="giString" name="variationScopes"/>
    <attribute value="Local" type="giString" name="variations"/>
   </object>
  </collection>
