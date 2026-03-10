@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<!--Created by Custom Compiler (TM), build , on Tue Mar 10 10:07:30 2026-->
+<!--Created by Custom Compiler (TM), build , on Tue Mar 10 11:37:35 2026-->
 <file-format version="1.0" name="stateCategory">
  <object version="1" name="outputs" type="saOutputs">
   <collection name="customPlotModes">
@@ -719,6 +719,25 @@
         <attribute value="" name="color" type="giString"/>
         <attribute value="1" name="enabled" type="giBoolean"/>
         <attribute value="5" name="exprIndex" type="giInt"/>
+        <attribute value="Ivdd -I1-I10" name="expression" type="giString"/>
+        <attribute value="0" name="global" type="giBoolean"/>
+        <attribute value="0" name="isPlotted" type="giBoolean"/>
+        <attribute value="auto" name="logicRadix" type="enLogicRadixType"/>
+        <attribute value="" name="modifier" type="giString"/>
+        <attribute value="Iqscnt" name="name" type="giString"/>
+        <attribute value="" name="params" type="giString"/>
+        <attribute value="0" name="plot" type="giBoolean"/>
+        <attribute value="auto" name="plotType" type="enGraphType"/>
+        <attribute value="" name="resultType" type="giString"/>
+        <attribute value="expression" name="type" type="enOutputType"/>
+        <attribute value="" name="units" type="giString"/>
+        <collection name="values"/>
+       </object>
+       <object name="mappedExpressions" type="wfExpression">
+        <attribute value="" name="analysisName" type="giString"/>
+        <attribute value="" name="color" type="giString"/>
+        <attribute value="1" name="enabled" type="giBoolean"/>
+        <attribute value="2" name="exprIndex" type="giInt"/>
         <attribute value="Ivdd -I1-I10" name="expression" type="giString"/>
         <attribute value="0" name="global" type="giBoolean"/>
         <attribute value="0" name="isPlotted" type="giBoolean"/>
