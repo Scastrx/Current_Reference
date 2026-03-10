@@ -10,6 +10,7 @@
    <attribute value="1" name="doNominal" type="giBoolean"/>
    <attribute value="0" name="enableFastSensitivity" type="giBoolean"/>
    <attribute value="1" name="enabled" type="giBoolean"/>
+   <attribute value="" name="enabledTestbenches" type="giString"/>
    <attribute value="0" name="fullSensTable" type="giBoolean"/>
    <attribute value="" name="goldenRefFile" type="giString"/>
    <attribute value="3.5" name="hsmcChipLevelSigma" type="giString"/>
@@ -40,6 +41,7 @@
    <attribute value="0" name="sensitivityHideIRVLevel" type="giBoolean"/>
    <attribute value="0" name="sensitivityOutputCSV" type="giBoolean"/>
    <attribute value="Pearson" name="sensitivityScreeningMethod" type="giString"/>
+   <attribute value="0" name="shareGlobalSetup" type="giBoolean"/>
    <attribute value="2.5" name="sigChipLevelSigma" type="giString"/>
    <attribute value="1" name="sigComponentCount" type="giString"/>
    <attribute value="618" name="sigNum" type="giString"/>
@@ -55,6 +57,7 @@
    <attribute value="Include" name="variationIncludeOrExclude" type="giString"/>
    <attribute value="" name="variationInstanceOrCellList" type="giString"/>
    <attribute value="Instances" name="variationObjectType" type="giString"/>
+   <attribute value="" name="variationScopes" type="giString"/>
    <attribute value="Local" name="variations" type="giString"/>
   </object>
  </collection>

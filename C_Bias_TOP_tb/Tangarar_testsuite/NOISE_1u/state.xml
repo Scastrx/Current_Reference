@@ -1,15 +1,15 @@
 <?xml version="1.0"?>
-<!--Created by Custom Compiler (TM), build , on Mon Mar  9 17:45:44 2026-->
+<!--Created by Custom Compiler (TM), build , on Tue Mar 10 10:07:31 2026-->
 <file-format version="1.0" name="stateData">
- <attribute value="1" type="giBoolean" name="dcop_splitted"/>
- <attribute value="" type="giString" name="description"/>
- <attribute value="Current_reference/C_Bias_TOP_tb/schematic" type="dmCellView" name="design"/>
- <attribute value="1" type="giBoolean" name="enabled"/>
- <attribute value="0" type="giBoolean" name="enabledJobClass"/>
- <attribute value="PrimeSim" type="giString" name="migratedSimulator"/>
- <attribute value="NOISE_1u" type="giString" name="name"/>
- <attribute value="//" type="dmCellView" name="openaccessState"/>
- <attribute value="PrimeSim" type="giString" name="simulator"/>
+ <attribute value="1" name="dcop_splitted" type="giBoolean"/>
+ <attribute value="" name="description" type="giString"/>
+ <attribute value="Current_reference/C_Bias_TOP_tb/schematic" name="design" type="dmCellView"/>
+ <attribute value="0" name="enabled" type="giBoolean"/>
+ <attribute value="0" name="enabledJobClass" type="giBoolean"/>
+ <attribute value="PrimeSim" name="migratedSimulator" type="giString"/>
+ <attribute value="NOISE_1u" name="name" type="giString"/>
+ <attribute value="//" name="openaccessState" type="dmCellView"/>
+ <attribute value="PrimeSim" name="simulator" type="giString"/>
  <comment>Testbench of 'Tangarar_testsuite' test suite.</comment>
  <integration version="1"/>
 </file-format>

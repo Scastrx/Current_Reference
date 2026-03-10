@@ -1,96 +1,96 @@
 <?xml version="1.0"?>
-<!--Created by Custom Compiler (TM), build , on Mon Mar  9 17:45:45 2026-->
+<!--Created by Custom Compiler (TM), build , on Tue Mar 10 10:07:31 2026-->
 <file-format version="1.0" name="stateCategory">
- <object version="1" type="saDesignVariables" name="designVariables">
-  <attribute value="0" type="giBoolean" name="includeGlobal"/>
+ <object version="1" name="designVariables" type="saDesignVariables">
+  <attribute value="0" name="includeGlobal" type="giBoolean"/>
   <collection name="variableGroupDefs"/>
   <collection name="variableGroups"/>
-  <attribute value="default" type="giString" name="variableSet"/>
+  <attribute value="default" name="variableSet" type="giString"/>
   <collection name="variableSets">
-   <object version="1" type="saDesignVariableSet" name="variableSets">
+   <object version="1" name="variableSets" type="saDesignVariableSet">
     <collection name="designVariables">
-     <object version="1" type="saDesignVariable" name="designVariables">
-      <attribute value="" type="giString" name="description"/>
-      <attribute value="Rext" type="giString" name="name"/>
-      <attribute value="0" type="giBoolean" name="useDpo"/>
-      <attribute value="0" type="giBoolean" name="useLocal"/>
-      <attribute value="" type="giString" name="value"/>
-      <attribute value="none" type="enVariableType" name="variableType"/>
+     <object version="1" name="designVariables" type="saDesignVariable">
+      <attribute value="" name="description" type="giString"/>
+      <attribute value="Rext" name="name" type="giString"/>
+      <attribute value="0" name="useDpo" type="giBoolean"/>
+      <attribute value="0" name="useLocal" type="giBoolean"/>
+      <attribute value="" name="value" type="giString"/>
+      <attribute value="none" name="variableType" type="enVariableType"/>
      </object>
-     <object version="1" type="saDesignVariable" name="designVariables">
-      <attribute value="" type="giString" name="description"/>
-      <attribute value="Res" type="giString" name="name"/>
-      <attribute value="0" type="giBoolean" name="useDpo"/>
-      <attribute value="0" type="giBoolean" name="useLocal"/>
-      <attribute value="" type="giString" name="value"/>
-      <attribute value="none" type="enVariableType" name="variableType"/>
+     <object version="1" name="designVariables" type="saDesignVariable">
+      <attribute value="" name="description" type="giString"/>
+      <attribute value="Res" name="name" type="giString"/>
+      <attribute value="0" name="useDpo" type="giBoolean"/>
+      <attribute value="0" name="useLocal" type="giBoolean"/>
+      <attribute value="" name="value" type="giString"/>
+      <attribute value="none" name="variableType" type="enVariableType"/>
      </object>
-     <object version="1" type="saDesignVariable" name="designVariables">
-      <attribute value="" type="giString" name="description"/>
-      <attribute value="Rc" type="giString" name="name"/>
-      <attribute value="0" type="giBoolean" name="useDpo"/>
-      <attribute value="0" type="giBoolean" name="useLocal"/>
-      <attribute value="" type="giString" name="value"/>
-      <attribute value="none" type="enVariableType" name="variableType"/>
+     <object version="1" name="designVariables" type="saDesignVariable">
+      <attribute value="" name="description" type="giString"/>
+      <attribute value="Rc" name="name" type="giString"/>
+      <attribute value="0" name="useDpo" type="giBoolean"/>
+      <attribute value="0" name="useLocal" type="giBoolean"/>
+      <attribute value="" name="value" type="giString"/>
+      <attribute value="none" name="variableType" type="enVariableType"/>
      </object>
-     <object version="1" type="saDesignVariable" name="designVariables">
-      <attribute value="" type="giString" name="description"/>
-      <attribute value="Rint" type="giString" name="name"/>
-      <attribute value="0" type="giBoolean" name="useDpo"/>
-      <attribute value="0" type="giBoolean" name="useLocal"/>
-      <attribute value="" type="giString" name="value"/>
-      <attribute value="none" type="enVariableType" name="variableType"/>
+     <object version="1" name="designVariables" type="saDesignVariable">
+      <attribute value="" name="description" type="giString"/>
+      <attribute value="Rint" name="name" type="giString"/>
+      <attribute value="0" name="useDpo" type="giBoolean"/>
+      <attribute value="0" name="useLocal" type="giBoolean"/>
+      <attribute value="" name="value" type="giString"/>
+      <attribute value="none" name="variableType" type="enVariableType"/>
      </object>
-     <object version="1" type="saDesignVariable" name="designVariables">
-      <attribute value="" type="giString" name="description"/>
-      <attribute value="VDD" type="giString" name="name"/>
-      <attribute value="0" type="giBoolean" name="useDpo"/>
-      <attribute value="0" type="giBoolean" name="useLocal"/>
-      <attribute value="" type="giString" name="value"/>
-      <attribute value="none" type="enVariableType" name="variableType"/>
+     <object version="1" name="designVariables" type="saDesignVariable">
+      <attribute value="" name="description" type="giString"/>
+      <attribute value="VDD" name="name" type="giString"/>
+      <attribute value="0" name="useDpo" type="giBoolean"/>
+      <attribute value="0" name="useLocal" type="giBoolean"/>
+      <attribute value="" name="value" type="giString"/>
+      <attribute value="none" name="variableType" type="enVariableType"/>
      </object>
-     <object version="1" type="saDesignVariable" name="designVariables">
-      <attribute value="" type="giString" name="description"/>
-      <attribute value="lp" type="giString" name="name"/>
-      <attribute value="0" type="giBoolean" name="useDpo"/>
-      <attribute value="0" type="giBoolean" name="useLocal"/>
-      <attribute value="" type="giString" name="value"/>
-      <attribute value="none" type="enVariableType" name="variableType"/>
+     <object version="1" name="designVariables" type="saDesignVariable">
+      <attribute value="" name="description" type="giString"/>
+      <attribute value="lp" name="name" type="giString"/>
+      <attribute value="0" name="useDpo" type="giBoolean"/>
+      <attribute value="0" name="useLocal" type="giBoolean"/>
+      <attribute value="" name="value" type="giString"/>
+      <attribute value="none" name="variableType" type="enVariableType"/>
      </object>
-     <object version="1" type="saDesignVariable" name="designVariables">
-      <attribute value="" type="giString" name="description"/>
-      <attribute value="Vm" type="giString" name="name"/>
-      <attribute value="0" type="giBoolean" name="useDpo"/>
-      <attribute value="0" type="giBoolean" name="useLocal"/>
-      <attribute value="" type="giString" name="value"/>
-      <attribute value="none" type="enVariableType" name="variableType"/>
+     <object version="1" name="designVariables" type="saDesignVariable">
+      <attribute value="" name="description" type="giString"/>
+      <attribute value="Vm" name="name" type="giString"/>
+      <attribute value="0" name="useDpo" type="giBoolean"/>
+      <attribute value="0" name="useLocal" type="giBoolean"/>
+      <attribute value="" name="value" type="giString"/>
+      <attribute value="none" name="variableType" type="enVariableType"/>
      </object>
-     <object version="1" type="saDesignVariable" name="designVariables">
-      <attribute value="" type="giString" name="description"/>
-      <attribute value="wp" type="giString" name="name"/>
-      <attribute value="0" type="giBoolean" name="useDpo"/>
-      <attribute value="0" type="giBoolean" name="useLocal"/>
-      <attribute value="" type="giString" name="value"/>
-      <attribute value="none" type="enVariableType" name="variableType"/>
+     <object version="1" name="designVariables" type="saDesignVariable">
+      <attribute value="" name="description" type="giString"/>
+      <attribute value="wp" name="name" type="giString"/>
+      <attribute value="0" name="useDpo" type="giBoolean"/>
+      <attribute value="0" name="useLocal" type="giBoolean"/>
+      <attribute value="" name="value" type="giString"/>
+      <attribute value="none" name="variableType" type="enVariableType"/>
      </object>
-     <object version="1" type="saDesignVariable" name="designVariables">
-      <attribute value="" type="giString" name="description"/>
-      <attribute value="Rtemp" type="giString" name="name"/>
-      <attribute value="0" type="giBoolean" name="useDpo"/>
-      <attribute value="0" type="giBoolean" name="useLocal"/>
-      <attribute value="" type="giString" name="value"/>
-      <attribute value="none" type="enVariableType" name="variableType"/>
+     <object version="1" name="designVariables" type="saDesignVariable">
+      <attribute value="" name="description" type="giString"/>
+      <attribute value="Rtemp" name="name" type="giString"/>
+      <attribute value="0" name="useDpo" type="giBoolean"/>
+      <attribute value="0" name="useLocal" type="giBoolean"/>
+      <attribute value="" name="value" type="giString"/>
+      <attribute value="none" name="variableType" type="enVariableType"/>
      </object>
-     <object version="1" type="saDesignVariable" name="designVariables">
-      <attribute value="" type="giString" name="description"/>
-      <attribute value="ac_psr" type="giString" name="name"/>
-      <attribute value="0" type="giBoolean" name="useDpo"/>
-      <attribute value="1" type="giBoolean" name="useLocal"/>
-      <attribute value="1" type="giString" name="value"/>
-      <attribute value="none" type="enVariableType" name="variableType"/>
+     <object version="1" name="designVariables" type="saDesignVariable">
+      <attribute value="" name="description" type="giString"/>
+      <attribute value="ac_psr" name="name" type="giString"/>
+      <attribute value="0" name="useDpo" type="giBoolean"/>
+      <attribute value="1" name="useLocal" type="giBoolean"/>
+      <attribute value="1" name="value" type="giString"/>
+      <attribute value="none" name="variableType" type="enVariableType"/>
      </object>
     </collection>
-    <attribute value="default" type="giString" name="name"/>
+    <attribute value="default" name="name" type="giString"/>
    </object>
   </collection>
  </object>
