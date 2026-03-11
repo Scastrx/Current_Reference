@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
-<!--Created by Custom Compiler (TM), build , on Tue Mar 10 11:37:35 2026-->
-<file-format version="1.0" name="stateData">
+<!--Created by Custom Compiler (TM), build , on Tue Mar 10 18:25:45 2026-->
+<file-format name="stateData" version="1.0">
  <attribute value="1" name="dcop_splitted" type="giBoolean"/>
  <attribute value="" name="description" type="giString"/>
  <attribute value="Current_reference/C_Bias_TOP_tb/schematic" name="design" type="dmCellView"/>

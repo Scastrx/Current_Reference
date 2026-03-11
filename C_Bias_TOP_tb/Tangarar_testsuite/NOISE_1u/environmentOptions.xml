@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
-<!--Created by Custom Compiler (TM), build , on Tue Mar 10 11:37:35 2026-->
-<file-format version="1.0" name="stateCategory">
- <object version="1" name="environmentOptions" type="saEnvironmentOptions">
+<!--Created by Custom Compiler (TM), build , on Tue Mar 10 18:25:46 2026-->
+<file-format name="stateCategory" version="1.0">
+ <object name="environmentOptions" type="saEnvironmentOptions" version="1">
   <attribute value="Default" name="accuracyLevel" type="giString"/>
   <attribute value="0" name="auto" type="giBoolean"/>
   <attribute value="" name="commandLineOptions" type="giString"/>

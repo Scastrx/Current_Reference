@@ -1,15 +1,15 @@
 <?xml version="1.0"?>
-<!--Created by Custom Compiler (TM), build , on Tue Mar 10 11:37:36 2026-->
-<file-format version="1.0" name="stateCategory">
- <object version="1" name="designVariables" type="saDesignVariables">
+<!--Created by Custom Compiler (TM), build , on Tue Mar 10 18:25:46 2026-->
+<file-format name="stateCategory" version="1.0">
+ <object name="designVariables" type="saDesignVariables" version="1">
   <attribute value="0" name="includeGlobal" type="giBoolean"/>
   <collection name="variableGroupDefs"/>
   <collection name="variableGroups"/>
   <attribute value="default" name="variableSet" type="giString"/>
   <collection name="variableSets">
-   <object version="1" name="variableSets" type="saDesignVariableSet">
+   <object name="variableSets" type="saDesignVariableSet" version="1">
     <collection name="designVariables">
-     <object version="1" name="designVariables" type="saDesignVariable">
+     <object name="designVariables" type="saDesignVariable" version="1">
       <attribute value="" name="description" type="giString"/>
       <attribute value="Rext" name="name" type="giString"/>
       <attribute value="0" name="useDpo" type="giBoolean"/>
@@ -17,7 +17,7 @@
       <attribute value="" name="value" type="giString"/>
       <attribute value="none" name="variableType" type="enVariableType"/>
      </object>
-     <object version="1" name="designVariables" type="saDesignVariable">
+     <object name="designVariables" type="saDesignVariable" version="1">
       <attribute value="" name="description" type="giString"/>
       <attribute value="Res" name="name" type="giString"/>
       <attribute value="0" name="useDpo" type="giBoolean"/>
@@ -25,7 +25,7 @@
       <attribute value="" name="value" type="giString"/>
       <attribute value="none" name="variableType" type="enVariableType"/>
      </object>
-     <object version="1" name="designVariables" type="saDesignVariable">
+     <object name="designVariables" type="saDesignVariable" version="1">
       <attribute value="" name="description" type="giString"/>
       <attribute value="Rc" name="name" type="giString"/>
       <attribute value="0" name="useDpo" type="giBoolean"/>
@@ -33,7 +33,7 @@
       <attribute value="" name="value" type="giString"/>
       <attribute value="none" name="variableType" type="enVariableType"/>
      </object>
-     <object version="1" name="designVariables" type="saDesignVariable">
+     <object name="designVariables" type="saDesignVariable" version="1">
       <attribute value="" name="description" type="giString"/>
       <attribute value="Rint" name="name" type="giString"/>
       <attribute value="0" name="useDpo" type="giBoolean"/>
@@ -41,7 +41,7 @@
       <attribute value="" name="value" type="giString"/>
       <attribute value="none" name="variableType" type="enVariableType"/>
      </object>
-     <object version="1" name="designVariables" type="saDesignVariable">
+     <object name="designVariables" type="saDesignVariable" version="1">
       <attribute value="" name="description" type="giString"/>
       <attribute value="VDD" name="name" type="giString"/>
       <attribute value="0" name="useDpo" type="giBoolean"/>
@@ -49,7 +49,7 @@
       <attribute value="" name="value" type="giString"/>
       <attribute value="none" name="variableType" type="enVariableType"/>
      </object>
-     <object version="1" name="designVariables" type="saDesignVariable">
+     <object name="designVariables" type="saDesignVariable" version="1">
       <attribute value="" name="description" type="giString"/>
       <attribute value="lp" name="name" type="giString"/>
       <attribute value="0" name="useDpo" type="giBoolean"/>
@@ -57,7 +57,7 @@
       <attribute value="" name="value" type="giString"/>
       <attribute value="none" name="variableType" type="enVariableType"/>
      </object>
-     <object version="1" name="designVariables" type="saDesignVariable">
+     <object name="designVariables" type="saDesignVariable" version="1">
       <attribute value="" name="description" type="giString"/>
       <attribute value="Vm" name="name" type="giString"/>
       <attribute value="0" name="useDpo" type="giBoolean"/>
@@ -65,7 +65,7 @@
       <attribute value="" name="value" type="giString"/>
       <attribute value="none" name="variableType" type="enVariableType"/>
      </object>
-     <object version="1" name="designVariables" type="saDesignVariable">
+     <object name="designVariables" type="saDesignVariable" version="1">
       <attribute value="" name="description" type="giString"/>
       <attribute value="wp" name="name" type="giString"/>
       <attribute value="0" name="useDpo" type="giBoolean"/>
@@ -73,7 +73,7 @@
       <attribute value="" name="value" type="giString"/>
       <attribute value="none" name="variableType" type="enVariableType"/>
      </object>
-     <object version="1" name="designVariables" type="saDesignVariable">
+     <object name="designVariables" type="saDesignVariable" version="1">
       <attribute value="" name="description" type="giString"/>
       <attribute value="Rtemp" name="name" type="giString"/>
       <attribute value="0" name="useDpo" type="giBoolean"/>
@@ -81,7 +81,7 @@
       <attribute value="" name="value" type="giString"/>
       <attribute value="none" name="variableType" type="enVariableType"/>
      </object>
-     <object version="1" name="designVariables" type="saDesignVariable">
+     <object name="designVariables" type="saDesignVariable" version="1">
       <attribute value="" name="description" type="giString"/>
       <attribute value="ac_psr" name="name" type="giString"/>
       <attribute value="0" name="useDpo" type="giBoolean"/>

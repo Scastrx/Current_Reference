@@ -1,21 +1,21 @@
 <?xml version="1.0"?>
-<!--Created by Custom Compiler (TM), build , on Tue Mar 10 11:37:36 2026-->
-<file-format version="1.0" name="stateCategory">
- <object version="1" name="models" type="saModelSetup">
+<!--Created by Custom Compiler (TM), build , on Tue Mar 10 18:25:46 2026-->
+<file-format name="stateCategory" version="1.0">
+ <object name="models" type="saModelSetup" version="1">
   <attribute value="1" name="includeGlobal" type="giBoolean"/>
   <attribute value="/home/scastro/tsmc28/models/hspice/" name="includePath" type="giString"/>
   <collection name="modelFiles">
-   <object version="1" name="modelFiles" type="saModelFile">
+   <object name="modelFiles" type="saModelFile" version="1">
     <attribute value="1" name="enabled" type="giBoolean"/>
     <attribute value="crn28ull_1d8_elk_v1d8_2p3_shrink0d9_embedded_usage.l" name="filename" type="giString"/>
     <attribute value="TTMacro_MOS_MOSCAP" name="section" type="giString"/>
    </object>
-   <object version="1" name="modelFiles" type="saModelFile">
+   <object name="modelFiles" type="saModelFile" version="1">
     <attribute value="1" name="enabled" type="giBoolean"/>
     <attribute value="crn28ull_1d8_elk_v1d8_2p3_shrink0d9_embedded_usage.l" name="filename" type="giString"/>
     <attribute value="TT_RES_BIP_DIO_DISRES" name="section" type="giString"/>
    </object>
-   <object version="1" name="modelFiles" type="saModelFile">
+   <object name="modelFiles" type="saModelFile" version="1">
     <attribute value="0" name="enabled" type="giBoolean"/>
     <attribute value="crn28ull_1d8_elk_v1d8_2p3_shrink0d9_embedded_usage.l" name="filename" type="giString"/>
     <attribute value="" name="section" type="giString"/>
