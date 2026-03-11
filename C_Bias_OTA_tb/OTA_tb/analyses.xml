@@ -1,0 +1,248 @@
+<?xml version="1.0"?>
+<!--Created by Custom Compiler (TM), build , on Thu Mar  5 19:03:28 2026-->
+<file-format version="1.0" name="stateCategory">
+ <collection name="analyses">
+  <object version="1" name="analyses" type="saAnalysis">
+   <attribute value="" name="card" type="giString"/>
+   <attribute value="" name="center" type="giString"/>
+   <attribute value="20" name="dec" type="giString"/>
+   <attribute value="lstb" name="definition" type="giString"/>
+   <attribute value="" name="description" type="giString"/>
+   <attribute value="" name="designVar" type="giString"/>
+   <attribute value="" name="dev" type="giString"/>
+   <attribute value="1" name="enabled" type="giBoolean"/>
+   <attribute value="" name="freq" type="giString"/>
+   <attribute value="" name="lin" type="giString"/>
+   <attribute value="/gnd!" name="localgnd" type="giString"/>
+   <attribute value="" name="log" type="giString"/>
+   <attribute value="" name="mod" type="giString"/>
+   <attribute value="single" name="modeType" type="giString"/>
+   <attribute value="lstb" name="name" type="giString"/>
+   <collection name="options">
+    <object version="1" name="options" type="saOption">
+     <attribute value="no" name="enabled" type="giString"/>
+     <attribute value="0" name="hasIntegrationDefault" type="giBoolean"/>
+     <attribute value="0" name="localized" type="giBoolean"/>
+     <attribute value="read_ns" name="name" type="giString"/>
+     <attribute value="" name="simDefault" type="giString"/>
+     <attribute value="used" name="state" type="giString"/>
+     <attribute value="" name="value" type="giString"/>
+    </object>
+    <object version="1" name="options" type="saOption">
+     <attribute value="no" name="enabled" type="giString"/>
+     <attribute value="0" name="hasIntegrationDefault" type="giBoolean"/>
+     <attribute value="0" name="localized" type="giBoolean"/>
+     <attribute value="write" name="name" type="giString"/>
+     <attribute value="" name="simDefault" type="giString"/>
+     <attribute value="used" name="state" type="giString"/>
+     <attribute value="" name="value" type="giString"/>
+    </object>
+    <object version="1" name="options" type="saOption">
+     <attribute value="no" name="enabled" type="giString"/>
+     <attribute value="0" name="hasIntegrationDefault" type="giBoolean"/>
+     <attribute value="0" name="localized" type="giBoolean"/>
+     <attribute value="read_ic" name="name" type="giString"/>
+     <attribute value="" name="simDefault" type="giString"/>
+     <attribute value="used" name="state" type="giString"/>
+     <attribute value="" name="value" type="giString"/>
+    </object>
+    <object version="1" name="options" type="saOption">
+     <attribute value="no" name="enabled" type="giString"/>
+     <attribute value="0" name="hasIntegrationDefault" type="giBoolean"/>
+     <attribute value="0" name="localized" type="giBoolean"/>
+     <attribute value="mode" name="name" type="giString"/>
+     <attribute value="single" name="simDefault" type="giString"/>
+     <attribute value="used" name="state" type="giString"/>
+     <attribute value="single" name="value" type="giString"/>
+    </object>
+    <object version="1" name="options" type="saOption">
+     <attribute value="no" name="enabled" type="giString"/>
+     <attribute value="0" name="hasIntegrationDefault" type="giBoolean"/>
+     <attribute value="0" name="localized" type="giBoolean"/>
+     <attribute value="vsource" name="name" type="giString"/>
+     <attribute value="" name="simDefault" type="giString"/>
+     <attribute value="used" name="state" type="giString"/>
+     <attribute value="" name="value" type="giString"/>
+    </object>
+    <object version="1" name="options" type="saOption">
+     <attribute value="no" name="enabled" type="giString"/>
+     <attribute value="0" name="hasIntegrationDefault" type="giBoolean"/>
+     <attribute value="0" name="localized" type="giBoolean"/>
+     <attribute value="write_final" name="name" type="giString"/>
+     <attribute value="" name="simDefault" type="giString"/>
+     <attribute value="used" name="state" type="giString"/>
+     <attribute value="" name="value" type="giString"/>
+    </object>
+    <object version="1" name="options" type="saOption">
+     <attribute value="no" name="enabled" type="giString"/>
+     <attribute value="0" name="hasIntegrationDefault" type="giBoolean"/>
+     <attribute value="0" name="localized" type="giBoolean"/>
+     <attribute value="name" name="name" type="giString"/>
+     <attribute value="" name="simDefault" type="giString"/>
+     <attribute value="used" name="state" type="giString"/>
+     <attribute value="" name="value" type="giString"/>
+    </object>
+    <object version="1" name="options" type="saOption">
+     <attribute value="no" name="enabled" type="giString"/>
+     <attribute value="0" name="hasIntegrationDefault" type="giBoolean"/>
+     <attribute value="0" name="localized" type="giBoolean"/>
+     <attribute value="locgnd" name="name" type="giString"/>
+     <attribute value="" name="simDefault" type="giString"/>
+     <attribute value="used" name="state" type="giString"/>
+     <attribute value="" name="value" type="giString"/>
+    </object>
+    <object version="1" name="options" type="saOption">
+     <attribute value="no" name="enabled" type="giString"/>
+     <attribute value="0" name="hasIntegrationDefault" type="giBoolean"/>
+     <attribute value="0" name="localized" type="giBoolean"/>
+     <attribute value="otherOptions" name="name" type="giString"/>
+     <attribute value="" name="simDefault" type="giString"/>
+     <attribute value="used" name="state" type="giString"/>
+     <attribute value="" name="value" type="giString"/>
+    </object>
+   </collection>
+   <attribute value="" name="param" type="giString"/>
+   <attribute value="" name="span" type="giString"/>
+   <attribute value="1" name="start" type="giString"/>
+   <attribute value="" name="step" type="giString"/>
+   <attribute value="Number of Steps" name="stepSpecLin" type="giString"/>
+   <attribute value="Points per Decade" name="stepSpecLog" type="giString"/>
+   <attribute value="5G" name="stop" type="giString"/>
+   <attribute value="" name="sub" type="giString"/>
+   <attribute value="Logarithmic" name="sweep" type="giString"/>
+   <attribute value="Start/Stop" name="sweepSpec" type="giString"/>
+   <attribute value="Frequency (Hz)" name="sweepVar" type="giString"/>
+   <attribute value="" name="textParam" type="giString"/>
+   <attribute value="0" name="useCard" type="giBoolean"/>
+   <attribute value="" name="values" type="giString"/>
+   <attribute value="/V18" name="vsource" type="giString"/>
+   <attribute value="" name="vsource2" type="giString"/>
+  </object>
+  <object version="1" name="analyses" type="saAnalysis">
+   <attribute value="" name="card" type="giString"/>
+   <attribute value="" name="center" type="giString"/>
+   <attribute value="20" name="dec" type="giString"/>
+   <attribute value="noise" name="definition" type="giString"/>
+   <attribute value="" name="description" type="giString"/>
+   <attribute value="" name="designVar" type="giString"/>
+   <attribute value="" name="dev" type="giString"/>
+   <attribute value="1" name="enabled" type="giBoolean"/>
+   <attribute value="" name="freq" type="giString"/>
+   <attribute value="/V11" name="iprobe" type="giString"/>
+   <attribute value="" name="lin" type="giString"/>
+   <attribute value="" name="log" type="giString"/>
+   <attribute value="" name="mod" type="giString"/>
+   <attribute value="noise" name="name" type="giString"/>
+   <attribute value="" name="negNode" type="giString"/>
+   <attribute value="" name="node" type="giString"/>
+   <attribute value="/V18" name="oprobe" type="giString"/>
+   <collection name="options">
+    <object version="1" name="options" type="saOption">
+     <attribute value="no" name="enabled" type="giString"/>
+     <attribute value="0" name="hasIntegrationDefault" type="giBoolean"/>
+     <attribute value="0" name="localized" type="giBoolean"/>
+     <attribute value="read_ns" name="name" type="giString"/>
+     <attribute value="" name="simDefault" type="giString"/>
+     <attribute value="used" name="state" type="giString"/>
+     <attribute value="" name="value" type="giString"/>
+    </object>
+    <object version="1" name="options" type="saOption">
+     <attribute value="no" name="enabled" type="giString"/>
+     <attribute value="0" name="hasIntegrationDefault" type="giBoolean"/>
+     <attribute value="0" name="localized" type="giBoolean"/>
+     <attribute value="name" name="name" type="giString"/>
+     <attribute value="" name="simDefault" type="giString"/>
+     <attribute value="used" name="state" type="giString"/>
+     <attribute value="" name="value" type="giString"/>
+    </object>
+    <object version="1" name="options" type="saOption">
+     <attribute value="no" name="enabled" type="giString"/>
+     <attribute value="0" name="hasIntegrationDefault" type="giBoolean"/>
+     <attribute value="0" name="localized" type="giBoolean"/>
+     <attribute value="listsources" name="name" type="giString"/>
+     <attribute value="1" name="simDefault" type="giString"/>
+     <attribute value="used" name="state" type="giString"/>
+     <attribute value="1" name="value" type="giString"/>
+    </object>
+    <object version="1" name="options" type="saOption">
+     <attribute value="no" name="enabled" type="giString"/>
+     <attribute value="0" name="hasIntegrationDefault" type="giBoolean"/>
+     <attribute value="0" name="localized" type="giBoolean"/>
+     <attribute value="listfreq" name="name" type="giString"/>
+     <attribute value="" name="simDefault" type="giString"/>
+     <attribute value="used" name="state" type="giString"/>
+     <attribute value="" name="value" type="giString"/>
+    </object>
+    <object version="1" name="options" type="saOption">
+     <attribute value="no" name="enabled" type="giString"/>
+     <attribute value="0" name="hasIntegrationDefault" type="giBoolean"/>
+     <attribute value="0" name="localized" type="giBoolean"/>
+     <attribute value="read_ic" name="name" type="giString"/>
+     <attribute value="" name="simDefault" type="giString"/>
+     <attribute value="used" name="state" type="giString"/>
+     <attribute value="" name="value" type="giString"/>
+    </object>
+    <object version="1" name="options" type="saOption">
+     <attribute value="no" name="enabled" type="giString"/>
+     <attribute value="0" name="hasIntegrationDefault" type="giBoolean"/>
+     <attribute value="0" name="localized" type="giBoolean"/>
+     <attribute value="listcount" name="name" type="giString"/>
+     <attribute value="1" name="simDefault" type="giString"/>
+     <attribute value="used" name="state" type="giString"/>
+     <attribute value="1" name="value" type="giString"/>
+    </object>
+    <object version="1" name="options" type="saOption">
+     <attribute value="no" name="enabled" type="giString"/>
+     <attribute value="0" name="hasIntegrationDefault" type="giBoolean"/>
+     <attribute value="0" name="localized" type="giBoolean"/>
+     <attribute value="write_final" name="name" type="giString"/>
+     <attribute value="" name="simDefault" type="giString"/>
+     <attribute value="used" name="state" type="giString"/>
+     <attribute value="" name="value" type="giString"/>
+    </object>
+    <object version="1" name="options" type="saOption">
+     <attribute value="no" name="enabled" type="giString"/>
+     <attribute value="0" name="hasIntegrationDefault" type="giBoolean"/>
+     <attribute value="0" name="localized" type="giBoolean"/>
+     <attribute value="listfloor" name="name" type="giString"/>
+     <attribute value="1.0e-14" name="simDefault" type="giString"/>
+     <attribute value="used" name="state" type="giString"/>
+     <attribute value="1.0e-14" name="value" type="giString"/>
+    </object>
+    <object version="1" name="options" type="saOption">
+     <attribute value="no" name="enabled" type="giString"/>
+     <attribute value="0" name="hasIntegrationDefault" type="giBoolean"/>
+     <attribute value="0" name="localized" type="giBoolean"/>
+     <attribute value="write" name="name" type="giString"/>
+     <attribute value="" name="simDefault" type="giString"/>
+     <attribute value="used" name="state" type="giString"/>
+     <attribute value="" name="value" type="giString"/>
+    </object>
+    <object version="1" name="options" type="saOption">
+     <attribute value="no" name="enabled" type="giString"/>
+     <attribute value="0" name="hasIntegrationDefault" type="giBoolean"/>
+     <attribute value="0" name="localized" type="giBoolean"/>
+     <attribute value="otherOptions" name="name" type="giString"/>
+     <attribute value="" name="simDefault" type="giString"/>
+     <attribute value="used" name="state" type="giString"/>
+     <attribute value="" name="value" type="giString"/>
+    </object>
+   </collection>
+   <attribute value="Branch Current" name="outputType" type="giString"/>
+   <attribute value="" name="param" type="giString"/>
+   <attribute value="" name="span" type="giString"/>
+   <attribute value="1" name="start" type="giString"/>
+   <attribute value="" name="step" type="giString"/>
+   <attribute value="Number of Steps" name="stepSpecLin" type="giString"/>
+   <attribute value="Points per Decade" name="stepSpecLog" type="giString"/>
+   <attribute value="5G" name="stop" type="giString"/>
+   <attribute value="" name="sub" type="giString"/>
+   <attribute value="Logarithmic" name="sweep" type="giString"/>
+   <attribute value="Start/Stop" name="sweepSpec" type="giString"/>
+   <attribute value="Frequency (Hz)" name="sweepVar" type="giString"/>
+   <attribute value="" name="textParam" type="giString"/>
+   <attribute value="0" name="useCard" type="giBoolean"/>
+   <attribute value="" name="values" type="giString"/>
+  </object>
+ </collection>
+</file-format>

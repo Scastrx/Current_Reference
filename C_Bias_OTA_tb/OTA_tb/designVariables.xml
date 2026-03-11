@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<!--Created by Custom Compiler (TM), build , on Thu Mar  5 19:03:28 2026-->
+<file-format version="1.0" name="stateCategory">
+ <object version="1" name="designVariables" type="saDesignVariables">
+  <attribute value="0" name="includeGlobal" type="giBoolean"/>
+  <collection name="variableGroupDefs"/>
+  <collection name="variableGroups"/>
+  <attribute value="default" name="variableSet" type="giString"/>
+  <collection name="variableSets">
+   <object version="1" name="variableSets" type="saDesignVariableSet">
+    <collection name="designVariables">
+     <object version="1" name="designVariables" type="saDesignVariable">
+      <attribute value="" name="description" type="giString"/>
+      <attribute value="CL" name="name" type="giString"/>
+      <attribute value="0" name="useDpo" type="giBoolean"/>
+      <attribute value="1" name="useLocal" type="giBoolean"/>
+      <attribute value="1p" name="value" type="giString"/>
+      <attribute value="none" name="variableType" type="enVariableType"/>
+     </object>
+     <object version="1" name="designVariables" type="saDesignVariable">
+      <attribute value="" name="description" type="giString"/>
+      <attribute value="VDD" name="name" type="giString"/>
+      <attribute value="0" name="useDpo" type="giBoolean"/>
+      <attribute value="1" name="useLocal" type="giBoolean"/>
+      <attribute value="1.8" name="value" type="giString"/>
+      <attribute value="none" name="variableType" type="enVariableType"/>
+     </object>
+     <object version="1" name="designVariables" type="saDesignVariable">
+      <attribute value="" name="description" type="giString"/>
+      <attribute value="Vref" name="name" type="giString"/>
+      <attribute value="0" name="useDpo" type="giBoolean"/>
+      <attribute value="1" name="useLocal" type="giBoolean"/>
+      <attribute value="1.2" name="value" type="giString"/>
+      <attribute value="none" name="variableType" type="enVariableType"/>
+     </object>
+    </collection>
+    <attribute value="default" name="name" type="giString"/>
+   </object>
+  </collection>
+ </object>
+</file-format>

@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+<!--Created by Custom Compiler (TM), build , on Thu Mar  5 19:03:28 2026-->
+<file-format version="1.0" name="stateCategory">
+ <object version="1" name="optimizationSetup" type="saOptimizationSetup">
+  <collection name="csoAreas"/>
+  <collection name="csoObjectives"/>
+  <object version="1" name="csoOptions" type="saDpoOptions">
+   <attribute value="simulation" name="csoJobClass" type="giString"/>
+   <attribute value="opt_history_1" name="csoRunName" type="giString"/>
+   <attribute value="1" name="designMeetSpecs" type="giString"/>
+   <attribute value="0" name="enableCornerReductionFlag" type="giBoolean"/>
+   <attribute value="0" name="enableInitialValueFlag" type="giBoolean"/>
+   <attribute value="" name="maxIterations" type="giString"/>
+   <attribute value="" name="maxRunTime" type="giString"/>
+   <attribute value="50" name="maximumTimesThanAverage" type="giString"/>
+   <attribute value="" name="maximumWallTime" type="giString"/>
+   <attribute value="100" name="noImprovementIterations" type="giString"/>
+   <attribute value="Global" name="optimizerEngine" type="giString"/>
+   <attribute value="0" name="removeInvalidParamsFlag" type="giBoolean"/>
+   <attribute value="1" name="rerunAbnormalSampleFlag" type="giBoolean"/>
+   <attribute value="1" name="rerunAbnormalSimFlag" type="giBoolean"/>
+   <attribute value="10" name="topBestDesigns" type="giString"/>
+  </object>
+  <collection name="csoParams">
+   <object version="1" name="csoParams" type="saDpoParam">
+    <attribute value="discrete" name="dpoType" type="giString"/>
+    <attribute value="1p" name="initVal" type="giString"/>
+    <attribute value="CL" name="name" type="giString"/>
+    <attribute value="" name="range" type="giString"/>
+    <attribute value="" name="step" type="giString"/>
+   </object>
+   <object version="1" name="csoParams" type="saDpoParam">
+    <attribute value="discrete" name="dpoType" type="giString"/>
+    <attribute value="1.8" name="initVal" type="giString"/>
+    <attribute value="VDD" name="name" type="giString"/>
+    <attribute value="" name="range" type="giString"/>
+    <attribute value="" name="step" type="giString"/>
+   </object>
+   <object version="1" name="csoParams" type="saDpoParam">
+    <attribute value="discrete" name="dpoType" type="giString"/>
+    <attribute value="1.2" name="initVal" type="giString"/>
+    <attribute value="Vref" name="name" type="giString"/>
+    <attribute value="" name="range" type="giString"/>
+    <attribute value="" name="step" type="giString"/>
+   </object>
+   <object version="1" name="csoParams" type="saDpoParam">
+    <attribute value="discrete" name="dpoType" type="giString"/>
+    <attribute value="1" name="initVal" type="giString"/>
+    <attribute value="ac_psr" name="name" type="giString"/>
+    <attribute value="" name="range" type="giString"/>
+    <attribute value="" name="step" type="giString"/>
+   </object>
+  </collection>
+  <attribute value="1" name="enabled" type="giBoolean"/>
+ </object>
+</file-format>

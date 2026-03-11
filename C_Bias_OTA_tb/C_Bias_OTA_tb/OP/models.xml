@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<!--Created by Custom Compiler (TM), build , on Wed Mar 11 10:08:53 2026-->
+<file-format name="stateCategory" version="1.0">
+ <object type="saModelSetup" name="models" version="1">
+  <attribute type="giBoolean" name="includeGlobal" value="1"/>
+  <attribute type="giString" name="includePath" value=""/>
+  <collection name="modelFiles"/>
+  <collection name="modelGroupDefs"/>
+  <collection name="modelGroups"/>
+ </object>
+</file-format>
