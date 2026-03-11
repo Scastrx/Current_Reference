@@ -1,9 +1,9 @@
 <?xml version="1.0"?>
-<!--Created by Custom Compiler (TM), build , on Tue Mar 10 11:37:35 2026-->
-<file-format version="1.0" name="stateCategory">
- <object version="1" name="outputs" type="saOutputs">
+<!--Created by Custom Compiler (TM), build , on Tue Mar 10 18:25:45 2026-->
+<file-format name="stateCategory" version="1.0">
+ <object name="outputs" type="saOutputs" version="1">
   <collection name="customPlotModes">
-   <object version="1" name="customPlotModes" type="wfCustomPlotMode">
+   <object name="customPlotModes" type="wfCustomPlotMode" version="1">
     <attribute value="0" name="isAlltbs" type="giBoolean"/>
     <attribute value="0" name="isGlobal" type="giBoolean"/>
     <attribute value="last" name="name" type="giString"/>
@@ -12,11 +12,11 @@
   <attribute value="1" name="importMeasures" type="giBoolean"/>
   <attribute value="default" name="outputSet" type="giString"/>
   <collection name="outputSets">
-   <object version="1" name="outputSets" type="saOutputSet">
+   <object name="outputSets" type="saOutputSet" version="1">
     <collection name="histogramCharts"/>
     <attribute value="default" name="name" type="giString"/>
     <collection name="outputs">
-     <object version="1" name="outputs" type="saOutput">
+     <object name="outputs" type="saOutput" version="1">
       <attribute value="1" name="addDefaultOP" type="giBoolean"/>
       <attribute value="dc_op" name="analyses" type="giString"/>
       <attribute value="" name="changedAttrName" type="giString"/>
@@ -173,7 +173,7 @@
       <attribute value="1" name="save" type="giBoolean"/>
       <attribute value="0" name="saveImage" type="giBoolean"/>
       <collection name="specs">
-       <object version="1" name="specs" type="saSpecification">
+       <object name="specs" type="saSpecification" version="1">
         <attribute value="" name="analysis" type="giString"/>
         <attribute value="" name="cornerName" type="giString"/>
         <attribute value="1" name="enabled" type="giBoolean"/>
@@ -194,7 +194,7 @@
       <attribute value="" name="units" type="giString"/>
       <attribute value="1" name="valueChangeEnabled" type="giBoolean"/>
      </object>
-     <object version="1" name="outputs" type="saOutput">
+     <object name="outputs" type="saOutput" version="1">
       <attribute value="1" name="addDefaultOP" type="giBoolean"/>
       <attribute value="dc_op" name="analyses" type="giString"/>
       <attribute value="" name="changedAttrName" type="giString"/>
@@ -351,7 +351,7 @@
       <attribute value="1" name="save" type="giBoolean"/>
       <attribute value="0" name="saveImage" type="giBoolean"/>
       <collection name="specs">
-       <object version="1" name="specs" type="saSpecification">
+       <object name="specs" type="saSpecification" version="1">
         <attribute value="" name="analysis" type="giString"/>
         <attribute value="" name="cornerName" type="giString"/>
         <attribute value="1" name="enabled" type="giBoolean"/>
@@ -372,7 +372,7 @@
       <attribute value="" name="units" type="giString"/>
       <attribute value="1" name="valueChangeEnabled" type="giBoolean"/>
      </object>
-     <object version="1" name="outputs" type="saOutput">
+     <object name="outputs" type="saOutput" version="1">
       <attribute value="1" name="addDefaultOP" type="giBoolean"/>
       <attribute value="dc_op" name="analyses" type="giString"/>
       <attribute value="name" name="changedAttrName" type="giString"/>
@@ -529,7 +529,7 @@
       <attribute value="1" name="save" type="giBoolean"/>
       <attribute value="0" name="saveImage" type="giBoolean"/>
       <collection name="specs">
-       <object version="1" name="specs" type="saSpecification">
+       <object name="specs" type="saSpecification" version="1">
         <attribute value="" name="analysis" type="giString"/>
         <attribute value="" name="cornerName" type="giString"/>
         <attribute value="0" name="enabled" type="giBoolean"/>
@@ -550,7 +550,7 @@
       <attribute value="" name="units" type="giString"/>
       <attribute value="1" name="valueChangeEnabled" type="giBoolean"/>
      </object>
-     <object version="1" name="outputs" type="saOutput">
+     <object name="outputs" type="saOutput" version="1">
       <attribute value="1" name="addDefaultOP" type="giBoolean"/>
       <attribute value="" name="analyses" type="giString"/>
       <attribute value="expr" name="changedAttrName" type="giString"/>
@@ -764,7 +764,7 @@
       <attribute value="1" name="save" type="giBoolean"/>
       <attribute value="0" name="saveImage" type="giBoolean"/>
       <collection name="specs">
-       <object version="1" name="specs" type="saSpecification">
+       <object name="specs" type="saSpecification" version="1">
         <attribute value="" name="analysis" type="giString"/>
         <attribute value="" name="cornerName" type="giString"/>
         <attribute value="1" name="enabled" type="giBoolean"/>

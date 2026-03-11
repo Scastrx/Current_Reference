@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
-<!--Created by Custom Compiler (TM), build , on Tue Mar 10 11:37:36 2026-->
-<file-format version="1.0" name="stateCategory">
+<!--Created by Custom Compiler (TM), build , on Tue Mar 10 18:25:46 2026-->
+<file-format name="stateCategory" version="1.0">
  <collection name="analyses">
-  <object version="1" name="analyses" type="saAnalysis">
+  <object name="analyses" type="saAnalysis" version="1">
    <attribute value="" name="card" type="giString"/>
    <attribute value="" name="center" type="giString"/>
    <attribute value="10" name="dec" type="giString"/>
@@ -21,7 +21,7 @@
    <attribute value="/I10A" name="node" type="giString"/>
    <attribute value="/IPRB0" name="oprobe" type="giString"/>
    <collection name="options">
-    <object version="1" name="options" type="saOption">
+    <object name="options" type="saOption" version="1">
      <attribute value="no" name="enabled" type="giString"/>
      <attribute value="0" name="hasIntegrationDefault" type="giBoolean"/>
      <attribute value="0" name="localized" type="giBoolean"/>
@@ -30,7 +30,7 @@
      <attribute value="used" name="state" type="giString"/>
      <attribute value="" name="value" type="giString"/>
     </object>
-    <object version="1" name="options" type="saOption">
+    <object name="options" type="saOption" version="1">
      <attribute value="no" name="enabled" type="giString"/>
      <attribute value="0" name="hasIntegrationDefault" type="giBoolean"/>
      <attribute value="0" name="localized" type="giBoolean"/>
@@ -39,7 +39,7 @@
      <attribute value="used" name="state" type="giString"/>
      <attribute value="" name="value" type="giString"/>
     </object>
-    <object version="1" name="options" type="saOption">
+    <object name="options" type="saOption" version="1">
      <attribute value="no" name="enabled" type="giString"/>
      <attribute value="0" name="hasIntegrationDefault" type="giBoolean"/>
      <attribute value="0" name="localized" type="giBoolean"/>
@@ -48,7 +48,7 @@
      <attribute value="used" name="state" type="giString"/>
      <attribute value="" name="value" type="giString"/>
     </object>
-    <object version="1" name="options" type="saOption">
+    <object name="options" type="saOption" version="1">
      <attribute value="no" name="enabled" type="giString"/>
      <attribute value="0" name="hasIntegrationDefault" type="giBoolean"/>
      <attribute value="0" name="localized" type="giBoolean"/>
@@ -57,7 +57,7 @@
      <attribute value="used" name="state" type="giString"/>
      <attribute value="" name="value" type="giString"/>
     </object>
-    <object version="1" name="options" type="saOption">
+    <object name="options" type="saOption" version="1">
      <attribute value="no" name="enabled" type="giString"/>
      <attribute value="0" name="hasIntegrationDefault" type="giBoolean"/>
      <attribute value="0" name="localized" type="giBoolean"/>
@@ -66,7 +66,7 @@
      <attribute value="used" name="state" type="giString"/>
      <attribute value="source" name="value" type="giString"/>
     </object>
-    <object version="1" name="options" type="saOption">
+    <object name="options" type="saOption" version="1">
      <attribute value="no" name="enabled" type="giString"/>
      <attribute value="0" name="hasIntegrationDefault" type="giBoolean"/>
      <attribute value="0" name="localized" type="giBoolean"/>
@@ -75,7 +75,7 @@
      <attribute value="used" name="state" type="giString"/>
      <attribute value="" name="value" type="giString"/>
     </object>
-    <object version="1" name="options" type="saOption">
+    <object name="options" type="saOption" version="1">
      <attribute value="no" name="enabled" type="giString"/>
      <attribute value="0" name="hasIntegrationDefault" type="giBoolean"/>
      <attribute value="0" name="localized" type="giBoolean"/>

@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
-<!--Created by Custom Compiler (TM), build , on Tue Mar 10 11:37:35 2026-->
-<file-format version="1.0" name="stateCategory">
+<!--Created by Custom Compiler (TM), build , on Tue Mar 10 18:25:46 2026-->
+<file-format name="stateCategory" version="1.0">
  <collection name="monteCarlo">
-  <object version="1" name="monteCarlo" type="saMonteCarlo">
+  <object name="monteCarlo" type="saMonteCarlo" version="1">
    <attribute value="0" name="autoValidation" type="giBoolean"/>
    <attribute value="1" name="criticalSweepExt" type="giBoolean"/>
    <attribute value="0" name="criticalSweepWaveform" type="giBoolean"/>
